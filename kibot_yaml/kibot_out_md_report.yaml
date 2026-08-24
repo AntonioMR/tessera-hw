@@ -13,7 +13,7 @@ outputs:
     options:
       output: '@OUTPUT_NAME@.md'
       template: @TEMPLATE@
-      collect_images: no
+      collect_images: 'no'
 
 ...
 definitions:
