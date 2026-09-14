@@ -5,11 +5,14 @@
 	(uuid "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c")
 	(paper "A3")
 	(title_block
-		(date "2025-01-12")
+		(date "2026-09-08")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
+	(bus_alias ""
+		(members)
+	)
 	(polyline
 		(pts
 			(xy 45.72 73.66) (xy 106.68 73.66)
@@ -494,7 +497,7 @@
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-				(color 140 140 140 1)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -1722,48 +1725,7 @@
 		(uuid "faea8a5f-3a8f-49cb-9832-569be941b06b")
 	)
 	(sheet
-		(at 340.36 313.69)
-		(size 35.56 5.08)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b")
-		(property "Sheetname" "Power - Sequencing"
-			(at 340.36 312.6609 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.905 1.905)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power - Sequencing.kicad_sch"
-			(at 341.63 314.96 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "tessera"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 340.36 302.26)
+		(at 379.73 302.26)
 		(size 35.56 5.08)
 		(stroke
 			(width 0)
@@ -1774,7 +1736,7 @@
 		)
 		(uuid "6e125bd6-2f99-4e5d-b3ea-4899f4540739")
 		(property "Sheetname" "Revision History"
-			(at 340.36 300.99 0)
+			(at 379.73 300.99 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -1786,7 +1748,7 @@
 			)
 		)
 		(property "Sheetfile" "Revision History.kicad_sch"
-			(at 340.995 303.53 0)
+			(at 380.365 303.53 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1798,7 +1760,7 @@
 		(instances
 			(project "tessera"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "7")
+					(page "10")
 				)
 			)
 		)
@@ -1845,7 +1807,7 @@
 		)
 	)
 	(sheet
-		(at 299.72 313.69)
+		(at 339.725 302.26)
 		(size 35.56 5.08)
 		(stroke
 			(width 0.1524)
@@ -1856,7 +1818,7 @@
 		)
 		(uuid "c5103ceb-5325-4a84-a025-9638a412984e")
 		(property "Sheetname" "Project Architecture"
-			(at 299.72 312.6609 0)
+			(at 339.725 301.2309 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -1868,7 +1830,7 @@
 			)
 		)
 		(property "Sheetfile" "Project Architecture.kicad_sch"
-			(at 300.99 314.96 0)
+			(at 340.995 303.53 0)
 			(effects
 				(font
 					(face "Arial")
