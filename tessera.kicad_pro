@@ -56,9 +56,28 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.1742
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|164285000|88490000|c8c7b03f-6387-4970-9e53-a284a0faa236|75460b7f-52b2-4f41-9505-1e0e90940412",
+        "clearance|166135000|94640000|d87479bc-ed58-49df-be36-ed2140375383|1294c584-18c6-4296-8940-9652d7deead8",
+        "solder_mask_bridge|134800000|44790000|3104f5cf-3e2f-4199-874a-e1c327a5f6a6|3b819b78-6c10-48f5-bf6b-69364fcb7df4",
+        "solder_mask_bridge|135600000|44790000|3b819b78-6c10-48f5-bf6b-69364fcb7df4|a16b7b1d-a25d-4a14-9179-8d6b11a85716",
+        "solder_mask_bridge|136300000|44790000|631335cd-432c-48b6-b471-2f536a37e6aa|a16b7b1d-a25d-4a14-9179-8d6b11a85716",
+        "solder_mask_bridge|136600000|44790000|631335cd-432c-48b6-b471-2f536a37e6aa|07ff46de-f84d-4621-8f98-9ea52d4efa2c",
+        "solder_mask_bridge|137300000|44790000|e091327b-0e11-43e7-8ef5-c6712b12c7e9|07ff46de-f84d-4621-8f98-9ea52d4efa2c",
+        "solder_mask_bridge|137600000|44790000|e091327b-0e11-43e7-8ef5-c6712b12c7e9|e81a6ef4-17d1-4e68-9f95-b0d57587ad0c",
+        "solder_mask_bridge|138100000|44790000|e81a6ef4-17d1-4e68-9f95-b0d57587ad0c|32d1a073-df8d-4c27-87c3-b2835e407a9e",
+        "solder_mask_bridge|138800000|44790000|d508e8be-2efc-41d5-a5ee-7c7111d7e30c|32d1a073-df8d-4c27-87c3-b2835e407a9e",
+        "solder_mask_bridge|139100000|44790000|d508e8be-2efc-41d5-a5ee-7c7111d7e30c|e55dcbdd-c61e-47e4-a253-dbf23ddf5a8d",
+        "solder_mask_bridge|139800000|44790000|c15a277c-59fb-425e-b35d-0bd19ce71e80|e55dcbdd-c61e-47e4-a253-dbf23ddf5a8d",
+        "solder_mask_bridge|140600000|44790000|ae222cbb-2e57-44ba-b206-0155a29d79d8|c15a277c-59fb-425e-b35d-0bd19ce71e80"
+      ],
       "meta": {
         "version": 2
       },
@@ -116,21 +135,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
-        "min_hole_clearance": 0.254,
+        "min_copper_edge_clearance": 0.2,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.55,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -181,6 +200,7 @@
       ],
       "track_widths": [
         0.0,
+        0.12,
         0.15,
         0.2,
         0.25,
@@ -219,6 +239,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
         },
         {
           "diameter": 0.55,
@@ -476,7 +504,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -486,9 +514,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "track_width": 0.12,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -527,7 +555,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -537,9 +565,9 @@
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "track_width": 0.12,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 12
       },
       {
@@ -690,9 +718,9 @@
         "name": "USB Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(132, 0, 132)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "track_width": 0.1742,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 12
       }
     ],
@@ -709,6 +737,8 @@
       "/Project Architecture/NFC/V_EH": "Power 3V3",
       "/Project Architecture/USB/D+": "USB Diff Pair",
       "/Project Architecture/USB/D-": "USB Diff Pair",
+      "/Project Architecture/USB/USB_D+": "USB Diff Pair",
+      "/Project Architecture/USB/USB_D-": "USB Diff Pair",
       "/Project Architecture/USB/VBUS": "Power 5V",
       "/Project Architecture/power/3V": "Power 3V3",
       "/Project Architecture/power/3V_SEC": "Power 3V3",
@@ -718,6 +748,7 @@
       "D-": "USB Diff Pair",
       "Net-(J1-D+-PadA6)": "USB Diff Pair",
       "Net-(J1-D--PadA7)": "USB Diff Pair",
+      "Net-(U3-SW)": "Power 3V3",
       "Net-(U3-VIN)": "Power_Batt",
       "Net-(U6-EN)": "Power_Batt",
       "Net-(U6-VIN)": "Power_Batt",
@@ -1748,8 +1779,8 @@
     "COMPANY": "APS",
     "DESIGNER": "Antonio Morales",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "d5f0558",
-    "GIT_HASH_SCH": "d5f0558",
+    "GIT_HASH_PCB": "98fc08a",
+    "GIT_HASH_SCH": "98fc08a",
     "GIT_URL": "https://github.com/AntonioMR/tessera-hw",
     "PROJECT_NAME": "Tessera",
     "RELEASE_BODY_1.0.0": "",
@@ -1757,8 +1788,8 @@
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "15-Sep-2026",
-    "RELEASE_DATE_NUM": "2026-09-15",
+    "RELEASE_DATE": "26-Aug-2026",
+    "RELEASE_DATE_NUM": "2026-08-26",
     "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
@@ -1766,7 +1797,7 @@
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "REVISION": "+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
-    "SHEET_NAME_10": "Revision History",
+    "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
     "SHEET_NAME_12": "......................................",
     "SHEET_NAME_13": "......................................",
@@ -1798,13 +1829,13 @@
     "SHEET_NAME_37": "......................................",
     "SHEET_NAME_38": "......................................",
     "SHEET_NAME_39": "......................................",
-    "SHEET_NAME_4": "USB",
+    "SHEET_NAME_4": "Section A - Title A",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "power",
-    "SHEET_NAME_6": "MCU",
-    "SHEET_NAME_7": "Leds",
-    "SHEET_NAME_8": "NFC",
-    "SHEET_NAME_9": "Secure element",
+    "SHEET_NAME_5": "Section B - Title B",
+    "SHEET_NAME_6": "Power - Sequencing",
+    "SHEET_NAME_7": "Revision History",
+    "SHEET_NAME_8": "......................................",
+    "SHEET_NAME_9": "......................................",
     "VARIANT": "DRAFT"
   }
 }

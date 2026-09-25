@@ -9,575 +9,6 @@
 		(date "2026-09-08")
 	)
 	(lib_symbols
-		(symbol "Switches/EVQP7A01P_1"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "EVQP7A01P"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch:Panasonic_EVQP7K_EVQP7A"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tti.com/content/dam/tti-commons/supplier/panasonic/ecom/panasonic-3529s-side-series-datasheet.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Side-actuated SMD tactile switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Revision" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "IPN" "IPN_SW-0001"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "EVQP7A01P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Symbol Revision" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint Revision" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Panasonic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "EVQP7A01P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Suplier URL" "https://www.mouser.es/es/ProductDetail/Panasonic-Industry/EVQ-P7A01P?qs=rJ%252BziJWpysz7n3C20u6WAw%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Alternative" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN Alternative" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Alternative 2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN Alternative 2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Type" "Tactile switch, side (lateral) actuation, snap-action"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Poles" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Throws" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Force" "2.2 N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Travel" "0.2 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package" "3.5 × 2.9 x 1.35 mm SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mounting" "SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RoHS" "Yes"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Created By" "AMR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Created On" "2026-08-29"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Approved By" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Approved On" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comments" "Side-operational SMD 3.5 mm × 2.9 mm "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost_1" "0,249"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost_10" "0,218"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost_100" "0,182"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost_500" "0,16"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost_1000" "0,151"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost_2500" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost_5000" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Button_Switch:Panasonic_EVQP7K_EVQP7A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Switches/EVQP7A01P_1_0_1"
-				(circle
-					(center 0 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 2.54) (xy 1.016 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 4.572 -0.508)
-					(mid 4.7824 0)
-					(end 4.572 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 3.81 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -3.81 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Switches/EVQP7A01P_1_1_1"
-				(rectangle
-					(start -2.54 5.08)
-					(end 2.794 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "catalog:LEDs/APHHS1005SURCK"
 			(pin_numbers hide)
 			(pin_names
@@ -1974,7 +1405,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 7.62 0)
+				(at 3.556 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1982,14 +1413,14 @@
 				)
 			)
 			(property "Value" "EVQP7A01P"
-				(at 0 -6.35 0)
+				(at 10.668 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch:Panasonic_EVQP7K_EVQP7A"
+			(property "Footprint" "Button_Switch:Panasonic_switch_EVQP7K_EVQP7A"
 				(at 0 7.62 0)
 				(effects
 					(font
@@ -2321,7 +1752,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Button_Switch:Panasonic_EVQP7K_EVQP7A"
+			(property "ki_fp_filters" "Button_Switch:Panasonic_switch_EVQP7K_EVQP7A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2334,30 +1765,6 @@
 				(circle
 					(center 0 -2.54)
 					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy 2.54 3.81)
-					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2450,7 +1857,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 3.81 0)
+					(at 0 6.35 270)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -2468,25 +1875,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 3.81 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -3.81 0)
+					(at 0 -6.35 90)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -2501,37 +1890,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -3.81 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Switches/EVQP7A01P_1_1"
-				(rectangle
-					(start -2.54 5.08)
-					(end 2.794 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -3576,28 +2934,40 @@
 		)
 	)
 	(junction
+		(at 213.36 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "172b2d7d-e067-4a32-bb6b-9962cd361664")
+	)
+	(junction
 		(at 102.87 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f5a16e4-d4dd-4bde-abc7-37c27a2b7b5a")
 	)
 	(junction
-		(at 220.98 124.46)
+		(at 116.84 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8643bf94-cc51-43e8-9785-886e462542af")
+		(uuid "a6f8dfc8-08f0-456a-b221-0b5f95d66072")
 	)
 	(junction
-		(at 120.65 124.46)
+		(at 207.01 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2ef0f38-aa2e-4b82-8b97-02166961dd89")
+		(uuid "d2650cfc-d5f5-4763-946c-93e40c39f7d3")
 	)
 	(junction
 		(at 203.2 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea7248f5-2c74-4c27-b7ba-b04ecf75e92a")
+	)
+	(junction
+		(at 110.49 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3da7936-2b2b-45fe-a368-f78368fdfe92")
 	)
 	(wire
 		(pts
@@ -3611,6 +2981,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 119.38) (xy 213.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08209d52-3813-4b20-8b35-72d467ac8258")
+	)
+	(wire
+		(pts
 			(xy 102.87 69.85) (xy 102.87 72.39)
 		)
 		(stroke
@@ -3621,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 132.08) (xy 101.6 137.16)
+			(xy 110.49 134.62) (xy 110.49 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3641,16 +3021,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 132.08) (xy 201.93 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1318543d-54d0-4e87-b551-9d1681d7c346")
-	)
-	(wire
-		(pts
 			(xy 45.72 123.19) (xy 58.42 123.19)
 		)
 		(stroke
@@ -3661,13 +3031,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 132.08) (xy 101.6 132.08)
+			(xy 116.84 120.65) (xy 125.73 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "209fb439-86d8-4601-9459-dcc979982533")
+		(uuid "1d220ebf-3a93-45c9-a3d3-c438516dc613")
 	)
 	(wire
 		(pts
@@ -3681,13 +3051,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 124.46) (xy 101.6 124.46)
+			(xy 101.6 120.65) (xy 110.49 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ca1f3b6-3d91-4954-82ef-9c249089fbac")
+	)
+	(wire
+		(pts
+			(xy 36.83 38.1) (xy 36.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8db01f-9742-450e-9bd8-c9660d6cfe9b")
 	)
 	(wire
 		(pts
@@ -3711,16 +3091,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 124.46) (xy 220.98 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48db184f-15c1-4471-bba2-0d13e53ac0f8")
-	)
-	(wire
-		(pts
 			(xy 203.2 80.01) (xy 203.2 82.55)
 		)
 		(stroke
@@ -3731,23 +3101,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 124.46) (xy 201.93 124.46)
+			(xy 198.12 119.38) (xy 207.01 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "536df641-f01b-4543-b67d-c70b635216b3")
-	)
-	(wire
-		(pts
-			(xy 36.83 60.96) (xy 36.83 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55380642-4556-4601-9f01-fc420d953b01")
 	)
 	(wire
 		(pts
@@ -3771,7 +3131,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 101.6 113.03)
+			(xy 110.49 120.65) (xy 110.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6efd36c1-d23b-4005-bba1-45a5580f7dae")
+	)
+	(wire
+		(pts
+			(xy 213.36 119.38) (xy 219.71 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7224b9b5-8774-43cc-8a0a-6e4da7659787")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 101.6 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 124.46) (xy 201.93 120.65)
+			(xy 198.12 119.38) (xy 198.12 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3791,13 +3171,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 132.08) (xy 219.71 137.16)
+			(xy 207.01 119.38) (xy 207.01 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c607b8d-93ff-4ed9-bcb6-1654ef8d2e97")
+		(uuid "7c8df4d2-4a4e-48f3-ad91-af5b4913fbe5")
 	)
 	(wire
 		(pts
@@ -3821,6 +3201,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 120.65) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e731b3c-3ee7-4cb1-8605-51c8a0b8d8d2")
+	)
+	(wire
+		(pts
 			(xy 119.38 60.96) (xy 119.38 64.77)
 		)
 		(stroke
@@ -3831,27 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 124.46) (xy 223.52 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c151ca1-f2cf-48ef-ac89-964efa55b4e5")
-	)
-	(wire
-		(pts
-			(xy 119.38 132.08) (xy 119.38 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea13679-7bd9-45d9-bdbe-27810cea7290")
-	)
-	(wire
-		(pts
-			(xy 220.98 119.38) (xy 220.98 124.46)
+			(xy 213.36 116.84) (xy 213.36 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3861,7 +3231,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 124.46) (xy 101.6 120.65)
+			(xy 101.6 120.65) (xy 101.6 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3871,33 +3241,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 132.08) (xy 119.38 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4160a3a-584b-404e-80bd-2e8c04f2e0ef")
-	)
-	(wire
-		(pts
-			(xy 201.93 132.08) (xy 201.93 137.16)
+			(xy 207.01 134.62) (xy 207.01 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5855343-f844-4233-9af8-c512caeeefb1")
-	)
-	(wire
-		(pts
-			(xy 115.57 124.46) (xy 120.65 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83d035c-a33e-4dc1-8af6-a01399026525")
 	)
 	(wire
 		(pts
@@ -3911,17 +3261,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 38.1) (xy 36.83 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1ca55e-7f99-4e42-aac1-a08fa0557fea")
-	)
-	(wire
-		(pts
-			(xy 201.93 106.68) (xy 201.93 113.03)
+			(xy 198.12 106.68) (xy 198.12 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3941,13 +3281,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 49.53) (xy 36.83 53.34)
+			(xy 36.83 71.12) (xy 36.83 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd9298db-c23f-4349-b017-aebc2dbf2975")
+		(uuid "ca6026b7-9823-4169-9ac2-63d55df81802")
 	)
 	(wire
 		(pts
@@ -3961,23 +3301,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 132.08) (xy 219.71 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da0784a2-6828-43be-87f4-2d703699d7ba")
-	)
-	(wire
-		(pts
-			(xy 120.65 119.38) (xy 120.65 124.46)
+			(xy 116.84 116.84) (xy 116.84 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea8ffb21-b01c-470c-8066-ee57cb65397c")
+	)
+	(wire
+		(pts
+			(xy 36.83 55.88) (xy 36.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16a63ee-46eb-4bcc-9951-d281e45829c9")
 	)
 	(wire
 		(pts
@@ -3998,16 +3338,6 @@
 			(type default)
 		)
 		(uuid "fcb9fc9d-1044-4ace-9883-7665e25ab282")
-	)
-	(wire
-		(pts
-			(xy 120.65 124.46) (xy 123.19 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe966488-c6d9-49ce-b5c3-3bbbddb0c897")
 	)
 	(wire
 		(pts
@@ -5272,7 +4602,7 @@
 		(uuid "dce95fe4-38d3-4db8-976c-8d3d81401c9d")
 	)
 	(label "VCC_PB"
-		(at 201.93 106.68 180)
+		(at 198.12 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5331,7 +4661,7 @@
 	)
 	(hierarchical_label "RST_PB"
 		(shape output)
-		(at 123.19 124.46 0)
+		(at 125.73 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5355,7 +4685,7 @@
 	)
 	(hierarchical_label "USR_PB"
 		(shape output)
-		(at 223.52 124.46 0)
+		(at 219.71 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5808,8 +5138,738 @@
 		)
 	)
 	(symbol
+		(lib_id "catalog:Switches/EVQP7A01P")
+		(at 110.49 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "094fc7bc-36fc-4fa0-84f4-2f6c3e9833e8")
+		(property "Reference" "SW1"
+			(at 115.316 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQP7A01P"
+			(at 118.872 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch:Panasonic_switch_EVQP7K_EVQP7A"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tti.com/content/dam/tti-commons/supplier/panasonic/ecom/panasonic-3529s-side-series-datasheet.pdf"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Side-actuated SMD tactile switch"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "IPN_SW-0001"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "EVQP7A01P"
+			(at 110.236 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Symbol Revision" "1"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Revision" "1"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "EVQP7A01P"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier URL" "https://www.mouser.es/es/ProductDetail/Panasonic-Industry/EVQ-P7A01P?qs=rJ%252BziJWpysz7n3C20u6WAw%3D%3D"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative 2" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative 2" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Tactile switch, side (lateral) actuation, snap-action"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Poles" "1"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Throws" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Force" "2.2 N"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Travel" "0.2 mm"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "3.5 × 2.9 x 1.35 mm SMD"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMD"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "AMR"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created On" "2026-08-29"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved By" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved On" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Side-operational SMD 3.5 mm × 2.9 mm "
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1" "0,249"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_10" "0,218"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_100" "0,182"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_500" "0,16"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1000" "0,151"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_2500" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_5000" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "351bf6c6-07d2-4949-8fe6-41d35f868dd1")
+		)
+		(pin "1"
+			(uuid "d6b34c64-cb9f-4a20-9ebf-60bf92cd2e9b")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "catalog:Switches/EVQP7A01P")
+		(at 207.01 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c4d43be-5ec9-4e91-9be3-98660f7da054")
+		(property "Reference" "SW2"
+			(at 212.09 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQP7A01P"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch:Panasonic_switch_EVQP7K_EVQP7A"
+			(at 207.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tti.com/content/dam/tti-commons/supplier/panasonic/ecom/panasonic-3529s-side-series-datasheet.pdf"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Side-actuated SMD tactile switch"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "IPN_SW-0001"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "EVQP7A01P"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Symbol Revision" "1"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Revision" "1"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "EVQP7A01P"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier URL" "https://www.mouser.es/es/ProductDetail/Panasonic-Industry/EVQ-P7A01P?qs=rJ%252BziJWpysz7n3C20u6WAw%3D%3D"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative 2" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative 2" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Tactile switch, side (lateral) actuation, snap-action"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Poles" "1"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Throws" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Force" "2.2 N"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Travel" "0.2 mm"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "3.5 × 2.9 x 1.35 mm SMD"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMD"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "AMR"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created On" "2026-08-29"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved By" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved On" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Side-operational SMD 3.5 mm × 2.9 mm "
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1" "0,249"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_10" "0,218"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_100" "0,182"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_500" "0,16"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1000" "0,151"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_2500" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_5000" ""
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34dbba64-7adf-4296-a123-1513d8a00907")
+		)
+		(pin "1"
+			(uuid "862199a4-df90-4fc0-a216-c136514aac23")
+		)
+		(instances
+			(project "tessera"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "catalog:Resistors/R0402_510K_0.063W_±1%")
-		(at 201.93 116.84 0)
+		(at 198.12 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5817,7 +5877,7 @@
 		(dnp no)
 		(uuid "1ba79efd-caec-41e3-af11-ff35803558e7")
 		(property "Reference" "R37"
-			(at 195.072 114.3 0)
+			(at 191.262 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +5886,7 @@
 			)
 		)
 		(property "Value" "510 kOhms"
-			(at 204.47 116.8399 0)
+			(at 200.66 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5896,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 200.152 116.84 90)
+			(at 196.342 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +5905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +5914,7 @@
 			)
 		)
 		(property "Description" "RES 510K OHM 1% 1/16W 0402"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5923,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +5932,7 @@
 			)
 		)
 		(property "IPN" "IPN_R-0009"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5941,7 @@
 			)
 		)
 		(property "Part Number" "R0402_510K_0.063W_±1%"
-			(at 204.47 119.3799 0)
+			(at 200.66 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +5951,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +5960,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-13510KL"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5969,7 @@
 			)
 		)
 		(property "Suplier URL" "https://www.digikey.be/en/products/detail/yageo/RC0402FR-13510KL/17024338"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +5978,7 @@
 			)
 		)
 		(property "Serie" "RC_L"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5987,7 @@
 			)
 		)
 		(property "Manufacturer Alternative" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5996,7 @@
 			)
 		)
 		(property "MPN Alternative" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +6005,7 @@
 			)
 		)
 		(property "Manufacturer Alternative 2" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +6014,7 @@
 			)
 		)
 		(property "MPN Alternative 2" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +6023,7 @@
 			)
 		)
 		(property "Resistance" "510K"
-			(at 197.612 116.84 0)
+			(at 193.802 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +6031,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +6040,7 @@
 			)
 		)
 		(property "Power" "0.063W"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6049,7 @@
 			)
 		)
 		(property "Power_frac" "1/16W"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6058,7 @@
 			)
 		)
 		(property "TempCoeff" "±100ppm/°C"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6067,7 @@
 			)
 		)
 		(property "Package" "R0402"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,7 +6076,7 @@
 			)
 		)
 		(property "Dimensions" "0.039\" L x 0.020\" A (1.00mm x 0.50mm)"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +6085,7 @@
 			)
 		)
 		(property "Height" "0.014\" (0.35mm)"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,7 +6094,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6103,7 @@
 			)
 		)
 		(property "Technology" "THIN FILM"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +6112,7 @@
 			)
 		)
 		(property "Mounting" "SMD"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6121,7 @@
 			)
 		)
 		(property "TempRange" "-55°C ~ 155°C"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6130,7 @@
 			)
 		)
 		(property "Lifecycle" "Activo"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6139,7 @@
 			)
 		)
 		(property "RoHS" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6148,7 @@
 			)
 		)
 		(property "Created By" "AMR"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6157,7 @@
 			)
 		)
 		(property "Created On" "13/09/2026"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6166,7 @@
 			)
 		)
 		(property "Approved By" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6175,7 @@
 			)
 		)
 		(property "Approved On" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6184,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6193,7 @@
 			)
 		)
 		(property "Cost_1" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6202,7 @@
 			)
 		)
 		(property "Cost_10" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +6211,7 @@
 			)
 		)
 		(property "Cost_100" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6220,7 @@
 			)
 		)
 		(property "Cost_500" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6229,7 @@
 			)
 		)
 		(property "Cost_1000" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6238,7 @@
 			)
 		)
 		(property "Cost_2500" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6247,7 @@
 			)
 		)
 		(property "Cost_5000" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6256,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6265,7 @@
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6274,7 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 201.93 116.84 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,72 +6292,6 @@
 			(project "tessera"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 219.71 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2132389c-c9c4-4319-a960-b04b5cd006d2")
-		(property "Reference" "#PWR059"
-			(at 219.71 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "176a1d83-bd61-40e4-a3b5-3275e088c538")
-		)
-		(instances
-			(project "tessera"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6866,765 +6860,6 @@
 		)
 	)
 	(symbol
-		(lib_id "catalog:Switches/EVQP7A01P")
-		(at 110.49 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3751df26-b0f9-4b71-aeee-f33e84e07eac")
-		(property "Reference" "SW1"
-			(at 110.49 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EVQP7A01P"
-			(at 110.49 120.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch:Panasonic_EVQP7K_EVQP7A"
-			(at 110.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tti.com/content/dam/tti-commons/supplier/panasonic/ecom/panasonic-3529s-side-series-datasheet.pdf"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Side-actuated SMD tactile switch"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "IPN_SW-0001"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "EVQP7A01P"
-			(at 111.6112 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "EVQP7A01P"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Suplier URL" "https://www.mouser.es/es/ProductDetail/Panasonic-Industry/EVQ-P7A01P?qs=rJ%252BziJWpysz7n3C20u6WAw%3D%3D"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative 2" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative 2" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Tactile switch, side (lateral) actuation, snap-action"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Poles" "1"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Throws" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Force" "2.2 N"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Travel" "0.2 mm"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "3.5 × 2.9 x 1.35 mm SMD"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMD"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS" "Yes"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created By" "AMR"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created On" "2026-08-29"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved By" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved On" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" "Side-operational SMD 3.5 mm × 2.9 mm "
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1" "0,249"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_10" "0,218"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_100" "0,182"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_500" "0,16"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1000" "0,151"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_2500" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_5000" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Revision" "1"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint Revision" "1"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cb30386-0c91-453a-8e02-999f236a60f9")
-		)
-		(pin "2"
-			(uuid "5e264791-4a97-4da9-8877-d9124d6acb28")
-		)
-		(pin "2"
-			(uuid "156b270a-ef1b-4360-b10b-eeece61f93cb")
-		)
-		(pin "1"
-			(uuid "33576f65-9f8b-45bb-a84b-567fd8a21597")
-		)
-		(instances
-			(project ""
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Switches/EVQP7A01P_1")
-		(lib_id "catalog:Switches/EVQP7A01P")
-		(at 210.82 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3cb672d8-3f04-4366-ad53-fe1897300014")
-		(property "Reference" "SW2"
-			(at 210.82 117.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EVQP7A01P"
-			(at 210.82 120.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch:Panasonic_EVQP7K_EVQP7A"
-			(at 210.82 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tti.com/content/dam/tti-commons/supplier/panasonic/ecom/panasonic-3529s-side-series-datasheet.pdf"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Side-actuated SMD tactile switch"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "IPN_SW-0001"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "EVQP7A01P"
-			(at 211.9412 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "EVQP7A01P"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Suplier URL" "https://www.mouser.es/es/ProductDetail/Panasonic-Industry/EVQ-P7A01P?qs=rJ%252BziJWpysz7n3C20u6WAw%3D%3D"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative 2" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative 2" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Tactile switch, side (lateral) actuation, snap-action"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Poles" "1"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Throws" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Force" "2.2 N"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Travel" "0.2 mm"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "3.5 × 2.9 x 1.35 mm SMD"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMD"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS" "Yes"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created By" "AMR"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created On" "2026-08-29"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved By" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved On" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" "Side-operational SMD 3.5 mm × 2.9 mm "
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1" "0,249"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_10" "0,218"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_100" "0,182"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_500" "0,16"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1000" "0,151"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_2500" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_5000" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Revision" "1"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint Revision" "1"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f850d63-53d3-4999-b868-f2c3363c530b")
-		)
-		(pin "2"
-			(uuid "2792a88f-d958-44f2-a214-e16e6af7b03b")
-		)
-		(pin "2"
-			(uuid "74c70270-73ce-44e1-9d74-2afcd8044df5")
-		)
-		(pin "1"
-			(uuid "d73a17d9-1f14-46d6-84ae-b18c27eb39a8")
-		)
-		(instances
-			(project "tessera"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 36.83 82.55 0)
 		(unit 1)
@@ -7685,72 +6920,6 @@
 			(project "tessera"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41eaca4d-202d-4d95-9c75-25349c7bd48a")
-		(property "Reference" "#PWR057"
-			(at 119.38 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b07c603f-9ab8-48f4-87b7-c5e14b1be174")
-		)
-		(instances
-			(project "tessera"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8651,7 +7820,7 @@
 	)
 	(symbol
 		(lib_id "catalog:Resistors/R0603_330R_0.1W_±1%")
-		(at 36.83 57.15 0)
+		(at 36.83 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8659,7 +7828,7 @@
 		(dnp no)
 		(uuid "78525c15-9523-40c6-b85c-b224ca818017")
 		(property "Reference" "R31"
-			(at 30.226 55.118 0)
+			(at 30.226 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +7837,7 @@
 			)
 		)
 		(property "Value" "330R ±1% 1/10W"
-			(at 39.37 57.1499 0)
+			(at 39.37 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,7 +7847,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 35.052 57.15 90)
+			(at 35.052 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,7 +7856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +7865,7 @@
 			)
 		)
 		(property "Description" "RES 330 OHM 1% 1/10W 0603"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +7874,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +7883,7 @@
 			)
 		)
 		(property "IPN" "IPN_R-0008"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8723,7 +7892,7 @@
 			)
 		)
 		(property "Part Number" "R0603_330R_0.1W_±1%"
-			(at 39.37 59.6899 0)
+			(at 39.37 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +7902,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,7 +7911,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RT0603FRE07330RL"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +7920,7 @@
 			)
 		)
 		(property "Suplier URL" "https://www.digikey.es/es/products/detail/yageo/RT0603FRE07330RL/1075309"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +7929,7 @@
 			)
 		)
 		(property "Serie" "RT"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +7938,7 @@
 			)
 		)
 		(property "Manufacturer Alternative" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +7947,7 @@
 			)
 		)
 		(property "MPN Alternative" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +7956,7 @@
 			)
 		)
 		(property "Manufacturer Alternative 2" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +7965,7 @@
 			)
 		)
 		(property "MPN Alternative 2" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +7974,7 @@
 			)
 		)
 		(property "Resistance" "330R"
-			(at 32.766 57.15 0)
+			(at 32.766 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8813,7 +7982,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +7991,7 @@
 			)
 		)
 		(property "Power" "0.1W"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,7 +8000,7 @@
 			)
 		)
 		(property "Power_frac" "1/10W"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,7 +8009,7 @@
 			)
 		)
 		(property "TempCoeff" "±50ppm/°C"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,7 +8018,7 @@
 			)
 		)
 		(property "Package" "R0603"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +8027,7 @@
 			)
 		)
 		(property "Dimensions" "0.063\" L x 0.031\"A (1.60mm x 0.80mm)"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8036,7 @@
 			)
 		)
 		(property "Height" "0.022\" (0.55mm)"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8045,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +8054,7 @@
 			)
 		)
 		(property "Technology" "THIN FILM"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,7 +8063,7 @@
 			)
 		)
 		(property "Mounting" "SMD"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +8072,7 @@
 			)
 		)
 		(property "TempRange" "-55°C ~ 155°C"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +8081,7 @@
 			)
 		)
 		(property "Lifecycle" "Activo"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +8090,7 @@
 			)
 		)
 		(property "RoHS" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +8099,7 @@
 			)
 		)
 		(property "Created By" "AMR"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,7 +8108,7 @@
 			)
 		)
 		(property "Created On" "22/08/2026"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +8117,7 @@
 			)
 		)
 		(property "Approved By" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8957,7 +8126,7 @@
 			)
 		)
 		(property "Approved On" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,7 +8135,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8975,7 +8144,7 @@
 			)
 		)
 		(property "Cost_1" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +8153,7 @@
 			)
 		)
 		(property "Cost_10" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,7 +8162,7 @@
 			)
 		)
 		(property "Cost_100" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +8171,7 @@
 			)
 		)
 		(property "Cost_500" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9011,7 +8180,7 @@
 			)
 		)
 		(property "Cost_1000" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +8189,7 @@
 			)
 		)
 		(property "Cost_2500" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,7 +8198,7 @@
 			)
 		)
 		(property "Cost_5000" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9038,7 +8207,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9047,7 +8216,7 @@
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +8225,7 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 36.83 57.15 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,7 +8250,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 137.16 0)
+		(at 207.01 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9090,7 +8259,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bf58e24-4d9d-4c26-a19c-4cce50b61627")
 		(property "Reference" "#PWR058"
-			(at 201.93 143.51 0)
+			(at 207.01 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +8268,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 142.24 0)
+			(at 207.01 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9107,7 +8276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 137.16 0)
+			(at 207.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +8285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 137.16 0)
+			(at 207.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +8294,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 137.16 0)
+			(at 207.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +8746,7 @@
 	)
 	(symbol
 		(lib_id "catalog:Test Points/TP_SMD_D1_0mm")
-		(at 220.98 119.38 0)
+		(at 213.36 116.84 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9585,7 +8754,7 @@
 		(dnp no)
 		(uuid "94bbad7b-c5eb-4e2f-9925-656ebdae4215")
 		(property "Reference" "TP18"
-			(at 219.202 114.808 0)
+			(at 211.582 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +8763,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 223.52 116.0779 0)
+			(at 215.9 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +8772,7 @@
 			)
 		)
 		(property "Footprint" "Test:TestPoint_Pad_D1.0mm"
-			(at 226.06 119.38 0)
+			(at 218.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +8781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 119.38 0)
+			(at 218.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +8790,7 @@
 			)
 		)
 		(property "Description" "SMD testpoint 1mm diameter"
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +8799,7 @@
 			)
 		)
 		(property "IPN" "IPN_TP-0001"
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +8808,7 @@
 			)
 		)
 		(property "Part Number" "TP_SMD_D1_0mm"
-			(at 223.52 118.6179 0)
+			(at 215.9 116.0779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +8818,7 @@
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,7 +8827,7 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9667,7 +8836,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9676,7 +8845,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,7 +8854,7 @@
 			)
 		)
 		(property "Suplier URL" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +8863,7 @@
 			)
 		)
 		(property "Manufacturer Alternative" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +8872,7 @@
 			)
 		)
 		(property "MPN Alternative" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +8881,7 @@
 			)
 		)
 		(property "Manufacturer Alternative 2" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9721,7 +8890,7 @@
 			)
 		)
 		(property "MPN Alternative 2" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,7 +8899,7 @@
 			)
 		)
 		(property "Mounting" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,7 +8908,7 @@
 			)
 		)
 		(property "RoHS" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +8917,7 @@
 			)
 		)
 		(property "Created By" "AMR"
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +8926,7 @@
 			)
 		)
 		(property "Created On" "14/09/26"
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,7 +8935,7 @@
 			)
 		)
 		(property "Approved By" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +8944,7 @@
 			)
 		)
 		(property "Approved On" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +8953,7 @@
 			)
 		)
 		(property "Revision" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,7 +8962,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9802,7 +8971,7 @@
 			)
 		)
 		(property "Cost_1" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9811,7 +8980,7 @@
 			)
 		)
 		(property "Cost_10" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9820,7 +8989,7 @@
 			)
 		)
 		(property "Cost_100" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,7 +8998,7 @@
 			)
 		)
 		(property "Cost_500" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +9007,7 @@
 			)
 		)
 		(property "Cost_1000" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,7 +9016,7 @@
 			)
 		)
 		(property "Cost_2500" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9856,7 +9025,7 @@
 			)
 		)
 		(property "Cost_5000" ""
-			(at 220.98 119.38 0)
+			(at 213.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10274,363 +9443,8 @@
 		)
 	)
 	(symbol
-		(lib_id "catalog:LEDs/APHHS1005SURCK")
-		(at 36.83 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98bcc7f4-e02f-4b2e-a703-ff50955f3081")
-		(property "Reference" "D1"
-			(at 34.036 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "APHHS1005SURCK"
-			(at 30.48 47.3075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Leds:LED_0402_1005Metric"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/spec/aphhs1005surck.pdf"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hyper Red (AlGaInP) 0402 SMD chip LED"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "IPN_D-0001"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "APHHS1005SURCK"
-			(at 33.02 47.3075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "APHHS1005SURCK"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Suplier URL" "https://www.mouser.es/es/ProductDetail/Kingbright/APHHS1005SURCK?qs=48MD8zkHsZBwFrET5mYrJQ%3D%3D"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative 2" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative 2" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color" "Red"
-			(at 40.64 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" "1.95 V typ / 2.5 V max @ IF=20mA"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "If" "30 mA max DC (185 mA peak)"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LuminousIntensity" "220 mcd typ / 120 mcd min @ IF=20mA"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ViewingAngle" "120 deg"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "402"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS" "Yes"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created By" "AMR"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created On" "2026-08-29"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved By" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved On" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1" "0,2670"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_10" "0,1850"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_100" "0,1310"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_500" "0,1060"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1000" "0,0980"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_2500" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_5000" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Revision" "1"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint Revision" "1"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5110f389-06aa-4cc3-95d9-2c75eae9ff78")
-		)
-		(pin "2"
-			(uuid "ed2667df-aab8-41e0-8c77-c57673a5f9c8")
-		)
-		(instances
-			(project "tessera"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "catalog:Test Points/TP_SMD_D1_0mm")
-		(at 120.65 119.38 0)
+		(at 116.84 116.84 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10638,7 +9452,7 @@
 		(dnp no)
 		(uuid "a2466b25-d922-419e-a36f-04ec322a6538")
 		(property "Reference" "TP17"
-			(at 118.872 114.808 0)
+			(at 115.062 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +9461,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 123.19 116.0779 0)
+			(at 119.38 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10656,7 +9470,7 @@
 			)
 		)
 		(property "Footprint" "Test:TestPoint_Pad_D1.0mm"
-			(at 125.73 119.38 0)
+			(at 121.92 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +9479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 119.38 0)
+			(at 121.92 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +9488,7 @@
 			)
 		)
 		(property "Description" "SMD testpoint 1mm diameter"
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +9497,7 @@
 			)
 		)
 		(property "IPN" "IPN_TP-0001"
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10692,7 +9506,7 @@
 			)
 		)
 		(property "Part Number" "TP_SMD_D1_0mm"
-			(at 123.19 118.6179 0)
+			(at 119.38 116.0779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10702,7 +9516,7 @@
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10711,7 +9525,7 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10720,7 +9534,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10729,7 +9543,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10738,7 +9552,7 @@
 			)
 		)
 		(property "Suplier URL" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10747,7 +9561,7 @@
 			)
 		)
 		(property "Manufacturer Alternative" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,7 +9570,7 @@
 			)
 		)
 		(property "MPN Alternative" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10765,7 +9579,7 @@
 			)
 		)
 		(property "Manufacturer Alternative 2" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10774,7 +9588,7 @@
 			)
 		)
 		(property "MPN Alternative 2" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +9597,7 @@
 			)
 		)
 		(property "Mounting" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10792,7 +9606,7 @@
 			)
 		)
 		(property "RoHS" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10801,7 +9615,7 @@
 			)
 		)
 		(property "Created By" "AMR"
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,7 +9624,7 @@
 			)
 		)
 		(property "Created On" "14/09/26"
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10819,7 +9633,7 @@
 			)
 		)
 		(property "Approved By" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +9642,7 @@
 			)
 		)
 		(property "Approved On" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,7 +9651,7 @@
 			)
 		)
 		(property "Revision" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10846,7 +9660,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,7 +9669,7 @@
 			)
 		)
 		(property "Cost_1" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10864,7 +9678,7 @@
 			)
 		)
 		(property "Cost_10" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +9687,7 @@
 			)
 		)
 		(property "Cost_100" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +9696,7 @@
 			)
 		)
 		(property "Cost_500" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +9705,7 @@
 			)
 		)
 		(property "Cost_1000" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10900,7 +9714,7 @@
 			)
 		)
 		(property "Cost_2500" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,7 +9723,7 @@
 			)
 		)
 		(property "Cost_5000" ""
-			(at 120.65 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,7 +9745,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 137.16 0)
+		(at 110.49 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10940,7 +9754,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6e77023-a648-41c4-8eda-1cdcfbc670a9")
 		(property "Reference" "#PWR056"
-			(at 101.6 143.51 0)
+			(at 110.49 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,7 +9763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 142.24 0)
+			(at 110.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10957,7 +9771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 137.16 0)
+			(at 110.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +9780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 137.16 0)
+			(at 110.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,7 +9789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 137.16 0)
+			(at 110.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +9811,7 @@
 	)
 	(symbol
 		(lib_id "catalog:Resistors/R0402_510K_0.063W_±1%")
-		(at 101.6 116.84 0)
+		(at 101.6 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11005,7 +9819,7 @@
 		(dnp no)
 		(uuid "ba39de75-d847-46bc-94b7-430d04d8f030")
 		(property "Reference" "R36"
-			(at 94.742 114.3 0)
+			(at 94.742 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,7 +9828,7 @@
 			)
 		)
 		(property "Value" "510 kOhms"
-			(at 104.14 116.8399 0)
+			(at 104.14 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,7 +9838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 99.822 116.84 90)
+			(at 99.822 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11033,7 +9847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11042,7 +9856,7 @@
 			)
 		)
 		(property "Description" "RES 510K OHM 1% 1/16W 0402"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,7 +9865,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11060,7 +9874,7 @@
 			)
 		)
 		(property "IPN" "IPN_R-0009"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11069,7 +9883,7 @@
 			)
 		)
 		(property "Part Number" "R0402_510K_0.063W_±1%"
-			(at 104.14 119.3799 0)
+			(at 104.14 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11079,7 +9893,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,7 +9902,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-13510KL"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11097,7 +9911,7 @@
 			)
 		)
 		(property "Suplier URL" "https://www.digikey.be/en/products/detail/yageo/RC0402FR-13510KL/17024338"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11106,7 +9920,7 @@
 			)
 		)
 		(property "Serie" "RC_L"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11115,7 +9929,7 @@
 			)
 		)
 		(property "Manufacturer Alternative" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11124,7 +9938,7 @@
 			)
 		)
 		(property "MPN Alternative" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,7 +9947,7 @@
 			)
 		)
 		(property "Manufacturer Alternative 2" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +9956,7 @@
 			)
 		)
 		(property "MPN Alternative 2" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,7 +9965,7 @@
 			)
 		)
 		(property "Resistance" "510K"
-			(at 97.282 116.84 0)
+			(at 97.282 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11159,7 +9973,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11168,7 +9982,7 @@
 			)
 		)
 		(property "Power" "0.063W"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11177,7 +9991,7 @@
 			)
 		)
 		(property "Power_frac" "1/16W"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,7 +10000,7 @@
 			)
 		)
 		(property "TempCoeff" "±100ppm/°C"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,7 +10009,7 @@
 			)
 		)
 		(property "Package" "R0402"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +10018,7 @@
 			)
 		)
 		(property "Dimensions" "0.039\" L x 0.020\" A (1.00mm x 0.50mm)"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11213,7 +10027,7 @@
 			)
 		)
 		(property "Height" "0.014\" (0.35mm)"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11222,7 +10036,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11231,7 +10045,7 @@
 			)
 		)
 		(property "Technology" "THIN FILM"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11240,7 +10054,7 @@
 			)
 		)
 		(property "Mounting" "SMD"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11249,7 +10063,7 @@
 			)
 		)
 		(property "TempRange" "-55°C ~ 155°C"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11258,7 +10072,7 @@
 			)
 		)
 		(property "Lifecycle" "Activo"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,7 +10081,7 @@
 			)
 		)
 		(property "RoHS" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11276,7 +10090,7 @@
 			)
 		)
 		(property "Created By" "AMR"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11285,7 +10099,7 @@
 			)
 		)
 		(property "Created On" "13/09/2026"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,7 +10108,7 @@
 			)
 		)
 		(property "Approved By" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,7 +10117,7 @@
 			)
 		)
 		(property "Approved On" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11312,7 +10126,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11321,7 +10135,7 @@
 			)
 		)
 		(property "Cost_1" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11330,7 +10144,7 @@
 			)
 		)
 		(property "Cost_10" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11339,7 +10153,7 @@
 			)
 		)
 		(property "Cost_100" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11348,7 +10162,7 @@
 			)
 		)
 		(property "Cost_500" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +10171,7 @@
 			)
 		)
 		(property "Cost_1000" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +10180,7 @@
 			)
 		)
 		(property "Cost_2500" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +10189,7 @@
 			)
 		)
 		(property "Cost_5000" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11384,7 +10198,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +10207,7 @@
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11402,7 +10216,7 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 101.6 116.84 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11420,6 +10234,361 @@
 			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "catalog:LEDs/APHHS1005SURCK")
+		(at 36.83 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5b71c36-fa72-49cc-a9ec-ff25096f85ce")
+		(property "Reference" "D1"
+			(at 34.036 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APHHS1005SURCK"
+			(at 30.48 68.8975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Leds:LED_0402_1005Metric"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/spec/aphhs1005surck.pdf"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hyper Red (AlGaInP) 0402 SMD chip LED"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "IPN_D-0001"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "APHHS1005SURCK"
+			(at 33.02 68.8975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "APHHS1005SURCK"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier URL" "https://www.mouser.es/es/ProductDetail/Kingbright/APHHS1005SURCK?qs=48MD8zkHsZBwFrET5mYrJQ%3D%3D"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative 2" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative 2" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "Red"
+			(at 40.64 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" "1.95 V typ / 2.5 V max @ IF=20mA"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "If" "30 mA max DC (185 mA peak)"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LuminousIntensity" "220 mcd typ / 120 mcd min @ IF=20mA"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ViewingAngle" "120 deg"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "402"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "AMR"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created On" "2026-08-29"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved By" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved On" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1" "0,2670"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_10" "0,1850"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_100" "0,1310"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_500" "0,1060"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1000" "0,0980"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_2500" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_5000" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Symbol Revision" "1"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Revision" "1"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a194378-650e-41c3-ae95-a88d6f1379f5")
+		)
+		(pin "2"
+			(uuid "a96571c8-7af4-4cc5-b27d-f56645e1443c")
+		)
+		(instances
+			(project "tessera"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/89677fce-d4d3-4441-ab20-bcbadb9c6549"
+					(reference "D1")
 					(unit 1)
 				)
 			)

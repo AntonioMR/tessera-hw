@@ -2699,7 +2699,7 @@
 				)
 			)
 		)
-		(symbol "catalog:Resistors/R0603_0R_0.1W_±5%"
+		(symbol "catalog:Resistors/R0402_0R_0.1W_±5%"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2715,7 +2715,7 @@
 					)
 				)
 			)
-			(property "Value" "0R ±5% 1/10W"
+			(property "Value" "0R ±5% 1/16W"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2723,7 +2723,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -2741,7 +2741,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
+			(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2750,7 +2750,7 @@
 					(hide yes)
 				)
 			)
-			(property "Revision" "1"
+			(property "Revision" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2759,7 +2759,7 @@
 					(hide yes)
 				)
 			)
-			(property "IPN" "IPN_R-0007"
+			(property "IPN" "IPN_R-0010"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2768,7 +2768,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "R0603_0R_0.1W_±5%"
+			(property "Part Number" "R0402_0R_0.1W_±5%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2803,7 +2803,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "RC0603JR-070RL"
+			(property "Manufacturer Part Number" "RC0402FR-070RL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2812,7 +2812,7 @@
 					(hide yes)
 				)
 			)
-			(property "Suplier URL" "https://www.digikey.es/es/products/detail/yageo/RC0402JR-070RL/726406"
+			(property "Suplier URL" "https://www.digikey.es/en/products/detail/yageo/RC0402FR-070RL/2827570"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2875,7 +2875,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "±5%"
+			(property "Tolerance" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2884,7 +2884,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "0.1W"
+			(property "Power" "0.063W"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2893,7 +2893,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power_frac" "1/10W"
+			(property "Power_frac" "1/16W"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2902,7 +2902,7 @@
 					(hide yes)
 				)
 			)
-			(property "TempCoeff" "-"
+			(property "TempCoeff" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2911,7 +2911,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "R0603"
+			(property "Package" "R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2920,7 +2920,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dimensions" "0.063\" L x 0.031\"A (1.60mm x 0.80mm)"
+			(property "Dimensions" "0.039\" L x 0.020\" A (1.00mm x 0.50mm)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2929,7 +2929,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.022\" (0.55mm)"
+			(property "Height" "0.014\" (0.35mm)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3001,7 +3001,7 @@
 					(hide yes)
 				)
 			)
-			(property "Created On" "22/08/2026"
+			(property "Created On" "20/09/26"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3109,7 +3109,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3118,7 +3118,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Resistors/R0603_0R_0.1W_±5%_0_1"
+			(symbol "Resistors/R0402_0R_0.1W_±5%_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -3131,7 +3131,7 @@
 					)
 				)
 			)
-			(symbol "Resistors/R0603_0R_0.1W_±5%_1_1"
+			(symbol "Resistors/R0402_0R_0.1W_±5%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5382,32 +5382,34 @@
 		)
 	)
 	(symbol
-		(lib_id "catalog:Resistors/R0603_0R_0.1W_±5%")
+		(lib_id "catalog:Resistors/R0402_0R_0.1W_±5%")
 		(at 129.54 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "12e35d9b-932a-419c-9c49-1a1b5818fb87")
+		(uuid "115fa02e-cebc-4656-9cd4-d0a55adc17bd")
 		(property "Reference" "R40"
-			(at 133.35 54.102 0)
+			(at 131.572 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0R ±5% 1/10W"
-			(at 123.19 55.88 90)
+		(property "Value" "0R ±5% 1/16W"
+			(at 132.08 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127.762 55.88 90)
 			(effects
 				(font
@@ -5425,7 +5427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
+		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5434,7 +5436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Revision" "1"
+		(property "Revision" ""
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5443,7 +5445,7 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "IPN_R-0007"
+		(property "IPN" "IPN_R-0010"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5452,8 +5454,27 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "R0603_0R_0.1W_±5%"
-			(at 125.73 55.88 90)
+		(property "Part Number" "R0402_0R_0.1W_±5%"
+			(at 132.08 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Revision" "1"
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Revision" "1"
+			(at 129.54 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0603JR-070RL"
+		(property "Manufacturer Part Number" "RC0402FR-070RL"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5479,7 +5500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Suplier URL" "https://www.digikey.es/es/products/detail/yageo/RC0402JR-070RL/726406"
+		(property "Suplier URL" "https://www.digikey.es/en/products/detail/yageo/RC0402FR-070RL/2827570"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5534,14 +5555,14 @@
 			)
 		)
 		(property "Resistance" "0R"
-			(at 132.842 56.134 0)
+			(at 132.9055 56.8325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Tolerance" "±5%"
+		(property "Tolerance" ""
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5550,7 +5571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.1W"
+		(property "Power" "0.063W"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5559,7 +5580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power_frac" "1/10W"
+		(property "Power_frac" "1/16W"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5568,7 +5589,7 @@
 				(hide yes)
 			)
 		)
-		(property "TempCoeff" "-"
+		(property "TempCoeff" ""
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5577,7 +5598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "R0603"
+		(property "Package" "R0402"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5586,7 +5607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dimensions" "0.063\" L x 0.031\"A (1.60mm x 0.80mm)"
+		(property "Dimensions" "0.039\" L x 0.020\" A (1.00mm x 0.50mm)"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5595,7 +5616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.022\" (0.55mm)"
+		(property "Height" "0.014\" (0.35mm)"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5667,7 +5688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Created On" "22/08/2026"
+		(property "Created On" "20/09/26"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -5766,38 +5787,11 @@
 				(hide yes)
 			)
 		)
-		(property "Config" ""
-			(at 129.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Revision" "1"
-			(at 129.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint Revision" "1"
-			(at 129.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
-			(uuid "738fcded-614f-4e77-bc83-049b51fe4818")
+			(uuid "0dc8ffe2-a530-4f1f-87a6-868d63d0a2e5")
 		)
 		(pin "2"
-			(uuid "c344a6a6-46fb-4c86-99a0-80062c603a7a")
+			(uuid "5bf6ab52-9f67-4d15-9714-ff517bf32ebb")
 		)
 		(instances
 			(project "tessera"
@@ -7102,6 +7096,427 @@
 			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c43af2fd-53dd-4cd9-902e-f32f5f744ee1"
 					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "catalog:Resistors/R0402_0R_0.1W_±5%")
+		(at 219.71 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6947c165-a418-438c-b029-94f5fef04551")
+		(property "Reference" "R38"
+			(at 221.234 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R ±5% 1/16W"
+			(at 219.7099 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.71 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "IPN_R-0010"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0402_0R_0.1W_±5%"
+			(at 222.2499 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Revision" "1"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Revision" "1"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-070RL"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier URL" "https://www.digikey.es/en/products/detail/yageo/RC0402FR-070RL/2827570"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Serie" "RC_L"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative 2" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative 2" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0R"
+			(at 218.694 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power_frac" "1/16W"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TempCoeff" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R0402"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "0.039\" L x 0.020\" A (1.00mm x 0.50mm)"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.014\" (0.35mm)"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THICK FILM"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMD"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TempRange" "-55°C ~ 155°C"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lifecycle" "Activo"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "AMR"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created On" "20/09/26"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved By" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved On" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_10" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_100" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_500" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1000" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_2500" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_5000" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5794c10-5664-45d8-9f13-6c0f31dee9b6")
+		)
+		(pin "2"
+			(uuid "13b33306-0d40-45b5-bb0e-37dfb9967e34")
+		)
+		(instances
+			(project "tessera"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c43af2fd-53dd-4cd9-902e-f32f5f744ee1"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8516,433 +8931,6 @@
 			(project "tessera"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c43af2fd-53dd-4cd9-902e-f32f5f744ee1"
 					(reference "#FLG010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "catalog:Resistors/R0603_0R_0.1W_±5%")
-		(at 100.33 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c6142f4-2d80-4ff5-86c1-0c5796c5a91f")
-		(property "Reference" "R39"
-			(at 104.14 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R ±5% 1/10W"
-			(at 93.98 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 98.552 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "IPN_R-0007"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "R0603_0R_0.1W_±5%"
-			(at 96.52 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0603JR-070RL"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Suplier URL" "https://www.digikey.es/es/products/detail/yageo/RC0402JR-070RL/726406"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Serie" "RC_L"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative 2" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative 2" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0R"
-			(at 103.632 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±5%"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power_frac" "1/10W"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TempCoeff" "-"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "R0603"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dimensions" "0.063\" L x 0.031\"A (1.60mm x 0.80mm)"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.022\" (0.55mm)"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "THICK FILM"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMD"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TempRange" "-55°C ~ 155°C"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lifecycle" "Activo"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created By" "AMR"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created On" "22/08/2026"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved By" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved On" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_10" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_100" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_500" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1000" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_2500" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_5000" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Revision" "1"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint Revision" "1"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f611e73-c841-46ef-a194-dcd5b10eae5f")
-		)
-		(pin "2"
-			(uuid "554eff99-c3fc-4de0-994c-879c9677faa3")
-		)
-		(instances
-			(project "tessera"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c43af2fd-53dd-4cd9-902e-f32f5f744ee1"
-					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -10729,33 +10717,35 @@
 		)
 	)
 	(symbol
-		(lib_id "catalog:Resistors/R0603_0R_0.1W_±5%")
-		(at 219.71 48.26 270)
+		(lib_id "catalog:Resistors/R0402_0R_0.1W_±5%")
+		(at 100.33 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dbca1e82-79ff-4768-b6f7-430cb9f13761")
-		(property "Reference" "R38"
-			(at 219.456 43.434 90)
+		(uuid "eb0d5d54-561e-4f5d-9495-68e7be1ba94c")
+		(property "Reference" "R39"
+			(at 102.362 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0R ±5% 1/10W"
-			(at 219.71 41.91 90)
+		(property "Value" "0R ±5% 1/16W"
+			(at 102.87 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.71 46.482 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 98.552 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,7 +10754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 48.26 0)
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10772,8 +10762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
-			(at 219.71 48.26 0)
+		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10781,8 +10771,8 @@
 				(hide yes)
 			)
 		)
-		(property "Revision" "1"
-			(at 219.71 48.26 0)
+		(property "Revision" ""
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,8 +10780,8 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "IPN_R-0007"
-			(at 219.71 48.26 0)
+		(property "IPN" "IPN_R-0010"
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,331 +10789,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "R0603_0R_0.1W_±5%"
-			(at 219.71 44.45 90)
+		(property "Part Number" "R0402_0R_0.1W_±5%"
+			(at 102.87 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0603JR-070RL"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Suplier URL" "https://www.digikey.es/es/products/detail/yageo/RC0402JR-070RL/726406"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Serie" "RC_L"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Alternative 2" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN Alternative 2" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0R"
-			(at 218.948 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±5%"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power_frac" "1/10W"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TempCoeff" "-"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "R0603"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dimensions" "0.063\" L x 0.031\"A (1.60mm x 0.80mm)"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.022\" (0.55mm)"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "THICK FILM"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMD"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TempRange" "-55°C ~ 155°C"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lifecycle" "Activo"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created By" "AMR"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created On" "22/08/2026"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved By" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Approved On" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_10" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_100" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_500" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_1000" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_2500" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost_5000" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 219.71 48.26 0)
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +10809,312 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 219.71 48.26 0)
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-070RL"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier URL" "https://www.digikey.es/en/products/detail/yageo/RC0402FR-070RL/2827570"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Serie" "RC_L"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative 2" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative 2" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0R"
+			(at 103.6955 56.8325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power_frac" "1/16W"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TempCoeff" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R0402"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "0.039\" L x 0.020\" A (1.00mm x 0.50mm)"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.014\" (0.35mm)"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THICK FILM"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMD"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TempRange" "-55°C ~ 155°C"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lifecycle" "Activo"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "AMR"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created On" "20/09/26"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved By" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved On" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_10" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_100" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_500" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1000" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_2500" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_5000" ""
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,15 +11123,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee44aeee-1737-4116-9c70-5fdd5fc91474")
+			(uuid "64632fd0-ab6b-4427-ad4f-d836e836f23f")
 		)
 		(pin "2"
-			(uuid "dd6b8ab9-ac66-41c8-a0ad-45e9a6c363f3")
+			(uuid "1a640ff4-cdfe-4ccd-b319-9c3237fd067f")
 		)
 		(instances
 			(project "tessera"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c43af2fd-53dd-4cd9-902e-f32f5f744ee1"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)

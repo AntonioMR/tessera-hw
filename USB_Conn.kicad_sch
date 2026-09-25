@@ -963,6 +963,60 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -7.62 -24.13 90)
+					(length 5.08) hide
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -24.13 90)
+					(length 5.08) hide
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -24.13 90)
+					(length 5.08) hide
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 		(symbol "catalog:ESD Protection/USBLC6-2P6"
@@ -3312,6 +3366,28 @@
 		)
 		(uuid "d98835a9-c2e7-42cf-85ef-bc80547fc52a")
 	)
+	(label "USB_D+"
+		(at 135.89 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bb4de93-1895-4a76-b4e8-ac512b9d8e43")
+	)
+	(label "USB_D-"
+		(at 135.89 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d223cf92-2072-462b-9dd6-c553c31877f2")
+	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
 		(at 213.36 81.28 0)
@@ -4438,6 +4514,15 @@
 		)
 		(pin "B8"
 			(uuid "0591db02-84b5-4abc-a614-6f5ce8442b10")
+		)
+		(pin "S4"
+			(uuid "ad725cc1-2c38-4ebe-8e89-0541babb61c8")
+		)
+		(pin "S2"
+			(uuid "04fa010f-0256-4997-bb0b-d60bf6ffe24f")
+		)
+		(pin "S3"
+			(uuid "7d731cfe-38dc-44db-9984-4c91a93f5577")
 		)
 		(instances
 			(project "tessera"

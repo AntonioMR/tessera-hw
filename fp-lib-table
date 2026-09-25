@@ -15,4 +15,5 @@
   (lib (name "Inductors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/Inductors.pretty")(options "")(descr ""))
   (lib (name "Test")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/Test.pretty")(options "")(descr ""))
   (lib (name "Mechanical")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/Mechanical.pretty")(options "")(descr ""))
+  (lib (name "Workart")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/Workart.pretty")(options "")(descr ""))
 )
