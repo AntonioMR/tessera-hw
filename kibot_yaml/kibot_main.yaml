@@ -136,7 +136,7 @@ groups:
     outputs:
       - @CSV_TP_OUTPUT@
       - @CSV_TP_TOP_OUTPUT@
-      - @CSV_TP_BOTTOM_OUTPUT@
+      # - @CSV_TP_BOTTOM_OUTPUT@
 
   - name: notes
     outputs:
