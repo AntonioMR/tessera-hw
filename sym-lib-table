@@ -37,4 +37,5 @@
   (lib (name "Power_DCDC")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/Power_DCDC.kicad_sym")(options "")(descr "")(hidden))
   (lib (name "Power_LDO")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/Power_LDO.kicad_sym")(options "")(descr "")(hidden))
   (lib (name "Antenna")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/Antenna.kicad_sym")(options "")(descr "")(hidden))
+  (lib (name "Workart")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/Workart.kicad_sym")(options "")(descr ""))
 )

@@ -68,6 +68,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: recursive
+
+      # catalog.sqlite is not committed in the lib submodule; regenerate it
+      # from lib_db/source/*.csv so the "catalog" database library resolves
+      - name: Build component catalog database
+        run: python3 lib/lib_db/build_db.py
 
       # Run these changelog update steps only on tag pushes
       - name: Pull latest changes for changelog update
