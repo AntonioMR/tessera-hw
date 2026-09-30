@@ -1,0 +1,20 @@
+Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
+TP1,VBUS,Power 5V,20.6750,71.6050,top,,TP,TestPoint_Pad_D1.0mm
+TP2,/Project Architecture/D-,USB Diff Pair,10.1650,69.5550,top,,TP,TestPoint_Pad_D1.0mm
+TP3,/Project Architecture/D+,USB Diff Pair,13.2100,69.5550,top,,TP,TestPoint_Pad_D1.0mm
+TP4,VCC_EH,Power 3V3,39.7250,46.4250,top,,TP,TestPoint_Pad_D1.0mm
+TP5,VCC,Power 3V3,39.3450,62.8150,top,,TP,TestPoint_Pad_D1.0mm
+TP6,VCC_SEC,Power 3V3,14.5200,52.2800,top,,TP,TestPoint_Pad_D1.0mm
+TP7,GND,GND,17.2350,60.5450,top,,TP,TestPoint_Pad_D1.0mm
+TP8,VSYS,Power_Batt,28.2350,69.3700,top,,TP,TestPoint_Pad_D1.0mm
+TP9,/Project Architecture/CHG_STAT,Default,24.1500,64.0800,top,,TP,TestPoint_Pad_D1.0mm
+TP10,/Project Architecture/CHG_PG,Default,26.1800,64.0800,top,,TP,TestPoint_Pad_D1.0mm
+TP11,VCC_nRF,Power 3V3,3.9400,53.0750,top,,TP,TestPoint_Pad_D1.0mm
+TP12,VBUS_nRF,Power 5V,3.1400,73.6500,top,,TP,TestPoint_Pad_D1.0mm
+TP13,/Project Architecture/RST_PB,Default,11.6050,38.2450,top,,TP,TestPoint_Pad_D1.0mm
+TP14,/Project Architecture/MCU/SWDCLK,Default,11.5900,42.3850,top,,TP,TestPoint_Pad_D1.0mm
+TP15,/Project Architecture/MCU/SWDO,Default,11.5600,40.3400,top,,TP,TestPoint_Pad_D1.0mm
+TP16,/Project Architecture/MCU/SWDIO,Default,11.5600,44.4950,top,,TP,TestPoint_Pad_D1.0mm
+TP17,/Project Architecture/RST_PB,Default,47.6850,73.9600,top,,TP,TestPoint_Pad_D1.0mm
+TP18,/Project Architecture/USR_PB,Default,47.7050,54.2650,top,,TP,TestPoint_Pad_D1.0mm
+TP19,/Project Architecture/NFC_INT,Default,47.1550,42.0400,top,,TP,TestPoint_Pad_D1.0mm

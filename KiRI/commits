@@ -1,0 +1,4 @@
+_local_|2026-09-30|root|Local changes not committed|False|True
+945b98e|2026-09-29|Antonio Morales|fix(hardware): resolve KiBot iBoM crash and stale symbol warning|True|True
+18556ee|2026-09-28|Antonio Morales|fix(hardware): disable bottom test-point output and reposition PCB origin|False|True
+64654d8|2026-09-26|Antonio Morales|fix(hardware): replace jumper/passive footprints with 0402 and refine schematics|True|True
