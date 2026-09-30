@@ -35,6 +35,29 @@ outputs:
           bottom_rule_width: 0
           row_spacing: 3
           column_spacing: 2
+        # Pick & place tables. Place a group named kibot_table_<NAME> on the
+        # F.AssemblyText / B.AssemblyText layer to set position and width
+        - name: '@NAME_POS_TOP@'
+          text_alignment: 'left'
+          invert_columns_order: false
+          border_width: 0.4
+          header_rule_width: 0.2
+          horizontal_rule_width: 0
+          vertical_rule_width: 0
+          top_rule_width: 0
+          bottom_rule_width: 0
+          column_spacing: 2
+        # Bottom page is mirrored (mirror_pcb_text: false), so invert columns
+        - name: '@NAME_POS_BOTTOM@'
+          text_alignment: 'right'
+          invert_columns_order: true
+          border_width: 0.4
+          header_rule_width: 0.2
+          horizontal_rule_width: 0
+          vertical_rule_width: 0
+          top_rule_width: 0
+          bottom_rule_width: 0
+          column_spacing: 2
     pages:
       - scaling: @SCALING@
         layer_var: ''
@@ -115,3 +138,5 @@ definitions:
   LAYER_DNP_CROSS_TOP: F.DNP
   LAYER_DNP_CROSS_BOTTOM: B.DNP
   NAME_COMP_COUNT: csv_comp_count
+  NAME_POS_TOP: csv_position_top
+  NAME_POS_BOTTOM: csv_position_bottom

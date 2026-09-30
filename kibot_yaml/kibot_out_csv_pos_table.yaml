@@ -1,0 +1,37 @@
+# KiBot output for generating a simplified per-side Position file in CSV format
+# Intended as source for the pick & place tables included in the assembly document
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/position.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: position
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    format: 'CSV'
+    only_smd: false
+    include_virtual: false
+    use_aux_axis_as_origin: true
+    separate_files_for_front_and_back: false
+    exclude_filter: '@EXCLUDE_FILTER@'
+    right_digits: 2
+    output: '%f-CPL@SUFFIX@%I%v.%x'
+    columns:
+      - id: Ref
+        name: Ref.
+      - id: PosX
+        name: X [mm]
+      - id: PosY
+        name: Y [mm]
+
+...
+definitions:
+  NAME: csv_position_top
+  COMMENT: Top position table in CSV format
+  DIR: Manufacturing/Assembly
+  SUFFIX: -top
+  EXCLUDE_FILTER: only_top

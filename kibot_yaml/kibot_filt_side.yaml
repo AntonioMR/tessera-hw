@@ -1,0 +1,19 @@
+# KiBot Filter for selecting components by PCB side
+# Used to generate per-side outputs (e.g. position tables for the assembly document)
+
+kibot:
+  version: 1
+
+filters:
+  - name: '@NAME@'
+    comment: '@COMMENT@'
+    type: generic
+    exclude_top: @EXCLUDE_TOP@
+    exclude_bottom: @EXCLUDE_BOTTOM@
+
+...
+definitions:
+  COMMENT: Select only top components
+  NAME: only_top
+  EXCLUDE_TOP: false
+  EXCLUDE_BOTTOM: true

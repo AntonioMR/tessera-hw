@@ -108,6 +108,8 @@ groups:
     outputs:
       - 3d_render
       - @CSV_POS_OUTPUT@
+      - @CSV_POS_TOP_OUTPUT@
+      - @CSV_POS_BOTTOM_OUTPUT@
       - @PDF_ASSEMBLY_OUTPUT@
 
   - name: 3d_render
@@ -190,6 +192,20 @@ import:
       COMMENT: Select only bottom testpoints
       EXCLUDE_TOP: true
       EXCLUDE_REFS: "@EXCLUDE_REFS@"
+
+  - file: kibot_filt_side.yaml
+    definitions:
+      NAME: @FILT_TOP_ONLY@
+      COMMENT: Select only top components
+      EXCLUDE_TOP: false
+      EXCLUDE_BOTTOM: true
+
+  - file: kibot_filt_side.yaml
+    definitions:
+      NAME: @FILT_BOTTOM_ONLY@
+      COMMENT: Select only bottom components
+      EXCLUDE_TOP: true
+      EXCLUDE_BOTTOM: false
 
   # Preflights =================================================================
 
@@ -304,6 +320,23 @@ import:
       NAME: @CSV_POS_OUTPUT@
       COMMENT: Position file in CSV format
       DIR: @ASSEMBLY_DIR@
+
+  # Per-side position tables (source for the assembly document tables)
+  - file: kibot_out_csv_pos_table.yaml
+    definitions:
+      NAME: @CSV_POS_TOP_OUTPUT@
+      COMMENT: Top position table in CSV format
+      DIR: @ASSEMBLY_DIR@
+      SUFFIX: -top
+      EXCLUDE_FILTER: @FILT_TOP_ONLY@
+
+  - file: kibot_out_csv_pos_table.yaml
+    definitions:
+      NAME: @CSV_POS_BOTTOM_OUTPUT@
+      COMMENT: Bottom position table in CSV format
+      DIR: @ASSEMBLY_DIR@
+      SUFFIX: -bottom
+      EXCLUDE_FILTER: @FILT_BOTTOM_ONLY@
 
   # Manufacturer-specific manufacturing outputs ================================
 
@@ -505,6 +538,8 @@ import:
       LAYER_DNP_CROSS_TOP: @LAYER_DNP_CROSS_TOP@
       LAYER_DNP_CROSS_BOTTOM: @LAYER_DNP_CROSS_BOTTOM@
       NAME_COMP_COUNT: @CSV_COMP_COUNT_OUPUT@
+      NAME_POS_TOP: @CSV_POS_TOP_OUTPUT@
+      NAME_POS_BOTTOM: @CSV_POS_BOTTOM_OUTPUT@
 
   # Compress fabrication files into ZIP archive --------------------------------
   - file: kibot_out_compress_fab.yaml
@@ -646,6 +681,8 @@ definitions:
   FILT_TP_EXCLUDE: exclude_testpoints
   FILT_TP_TOP_ONLY: only_testpoints_top
   FILT_TP_BOTTOM_ONLY: only_testpoints_bottom
+  FILT_TOP_ONLY: only_top
+  FILT_BOTTOM_ONLY: only_bottom
 
     # # Output names  ============================================================
 
@@ -660,6 +697,8 @@ definitions:
   DXF_DRILL_MAP_OUTPUT: dxf_drill_map
   CSV_DRILL_TABLE_OUTPUT: csv_drill_table
   CSV_POS_OUTPUT: csv_position
+  CSV_POS_TOP_OUTPUT: csv_position_top
+  CSV_POS_BOTTOM_OUTPUT: csv_position_bottom
 
   CSV_TP_OUTPUT: csv_testpoints
   CSV_TP_TOP_OUTPUT: csv_testpoints_top
