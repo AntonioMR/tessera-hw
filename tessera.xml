@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">945b98e</textvar>
-    <textvar name="GIT_HASH_SCH">64654d8</textvar>
+    <textvar name="GIT_HASH_PCB">3a208dc</textvar>
+    <textvar name="GIT_HASH_SCH">3a208dc</textvar>
     <textvar name="GIT_URL">https://github.com/AntonioMR/tessera-hw</textvar>
     <textvar name="PROJECT_NAME">Tessera</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">30-Sep-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-09-30</textvar>
+    <textvar name="RELEASE_DATE">01-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-01</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
