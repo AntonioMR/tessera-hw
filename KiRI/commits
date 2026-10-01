@@ -1,4 +1,4 @@
-_local_|2026-09-30|root|Local changes not committed|False|True
+_local_|2026-10-01|root|Local changes not committed|False|True
+226c919|2026-10-02|Antonio Morales|feat(hardware): add logo to PCB sheet and README, fix assembly P&P tables|False|True
 3a208dc|2026-10-01|Antonio Morales|feat(hardware): add board logo, per-side assembly tables|True|True
 945b98e|2026-09-29|Antonio Morales|fix(hardware): resolve KiBot iBoM crash and stale symbol warning|True|True
-18556ee|2026-09-28|Antonio Morales|fix(hardware): disable bottom test-point output and reposition PCB origin|False|True
