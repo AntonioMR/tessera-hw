@@ -1,8 +1,8 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
 TP1,VBUS,Power 5V,20.6750,71.6050,top,,TP,TestPoint_Pad_D1.0mm
-TP2,/Project Architecture/D-,USB Diff Pair,10.1650,69.5550,top,,TP,TestPoint_Pad_D1.0mm
-TP3,/Project Architecture/D+,USB Diff Pair,13.2100,69.5550,top,,TP,TestPoint_Pad_D1.0mm
-TP4,VCC_EH,Power 3V3,39.7250,46.4250,top,,TP,TestPoint_Pad_D1.0mm
+TP2,/Project Architecture/D-,USB Diff Pair,12.9000,69.5550,top,,TP,TestPoint_Pad_D1.0mm
+TP3,/Project Architecture/D+,USB Diff Pair,10.1650,69.5550,top,,TP,TestPoint_Pad_D1.0mm
+TP4,VCC_EH,Power 3V3,40.1700,46.6950,top,,TP,TestPoint_Pad_D1.0mm
 TP5,VCC,Power 3V3,39.3450,62.8150,top,,TP,TestPoint_Pad_D1.0mm
 TP6,VCC_SEC,Power 3V3,14.5200,52.2800,top,,TP,TestPoint_Pad_D1.0mm
 TP7,GND,GND,17.2350,60.5450,top,,TP,TestPoint_Pad_D1.0mm

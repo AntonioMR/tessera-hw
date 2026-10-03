@@ -63,19 +63,19 @@
 	BOARD SIZE				54.000 × 85.610 mm
 	BOARD THICKNESS		1.038 mm
 	TRACE WIDTH			0.120 mm
-	TRACE TO TRACE		0.100 mm
+	TRACE TO TRACE		0.120 mm
 	MIN. HOLE (PTH)			0.200 mm
 	MIN. HOLE (NPTH)		N/A mm
 	ANNULAR RING			0.050 mm
 	COPPER TO HOLE		0.150 mm
-	COPPER TO EDGE		0.200 mm
+	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.254 mm
 
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">226c919</textvar>
-    <textvar name="GIT_HASH_SCH">3a208dc</textvar>
+    <textvar name="GIT_HASH_PCB">4a3859d</textvar>
+    <textvar name="GIT_HASH_SCH">4a3859d</textvar>
     <textvar name="GIT_URL">https://github.com/AntonioMR/tessera-hw</textvar>
     <textvar name="PROJECT_NAME">Tessera</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">02-Oct-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-10-02</textvar>
+    <textvar name="RELEASE_DATE">03-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-03</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -3057,7 +3057,7 @@
       <description>CAP CER 1UF 6.3V X5R 0402</description>
       <fields>
         <field name="Revision">1</field>
-        <field name="IPN">IPN_C-????</field>
+        <field name="IPN">IPN_C-0008</field>
         <field name="Part Number">C0402_1uF_6.3V_±10%_X5R</field>
         <field name="Symbol Revision">1</field>
         <field name="Footprint Revision">1</field>
@@ -3096,9 +3096,9 @@
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1UF 6.3V X5R 0402</field>
       </fields>
-      <libsource lib="catalog" part="Capacitors/C0402_1uF_6.3V_±10%_X5R" description="CAP CER 1UF 6.3V X5R 0402"/>
+      <libsource lib="" part="Capacitors/C0402_1uF_6.3V_±10%_X5R_1" description="CAP CER 1UF 6.3V X5R 0402"/>
       <property name="Revision" value="1"/>
-      <property name="IPN" value="IPN_C-????"/>
+      <property name="IPN" value="IPN_C-0008"/>
       <property name="Part Number" value="C0402_1uF_6.3V_±10%_X5R"/>
       <property name="Symbol Revision" value="1"/>
       <property name="Footprint Revision" value="1"/>
@@ -3146,7 +3146,7 @@
       <description>CAP CER 1UF 6.3V X5R 0402</description>
       <fields>
         <field name="Revision">1</field>
-        <field name="IPN">IPN_C-????</field>
+        <field name="IPN">IPN_C-0008</field>
         <field name="Part Number">C0402_1uF_6.3V_±10%_X5R</field>
         <field name="Symbol Revision">1</field>
         <field name="Footprint Revision">1</field>
@@ -3187,7 +3187,7 @@
       </fields>
       <libsource lib="catalog" part="Capacitors/C0402_1uF_6.3V_±10%_X5R" description="CAP CER 1UF 6.3V X5R 0402"/>
       <property name="Revision" value="1"/>
-      <property name="IPN" value="IPN_C-????"/>
+      <property name="IPN" value="IPN_C-0008"/>
       <property name="Part Number" value="C0402_1uF_6.3V_±10%_X5R"/>
       <property name="Symbol Revision" value="1"/>
       <property name="Footprint Revision" value="1"/>
@@ -9536,6 +9536,59 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="Capacitors/C0402_1uF_6.3V_±10%_X5R_1">
+      <description>CAP CER 1UF 6.3V X5R 0402</description>
+      <footprints>
+        <fp>Capacitor_SMD:C_0402_1005Metric</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF 6.3V (X5R)</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CAP CER 1UF 6.3V X5R 0402</field>
+        <field name="Revision">1</field>
+        <field name="IPN">IPN_C-0008</field>
+        <field name="Part Number">C0402_1uF_6.3V_±10%_X5R</field>
+        <field name="Symbol Revision">1</field>
+        <field name="Footprint Revision">1</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0402C105K9PACTU</field>
+        <field name="Suplier URL">https://www.digikey.es/es/products/detail/kemet/C0402C105K9PACTU/1090778</field>
+        <field name="Manufacturer Alternative"/>
+        <field name="MPN Alternative"/>
+        <field name="Manufacturer Alternative 2"/>
+        <field name="MPN Alternative 2"/>
+        <field name="Capacitance">1uF</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Voltage">6.3V</field>
+        <field name="Dielectric">X5R</field>
+        <field name="ESR"/>
+        <field name="Ripple"/>
+        <field name="Package"/>
+        <field name="Height"/>
+        <field name="Polarized"/>
+        <field name="TempRange">-55°C ~ 85°C</field>
+        <field name="Lifecycle">Activo</field>
+        <field name="RoHS"/>
+        <field name="Created By">AMR</field>
+        <field name="Created On">22/08/2026</field>
+        <field name="Approved By"/>
+        <field name="Approved On"/>
+        <field name="Comments"/>
+        <field name="Cost_1"/>
+        <field name="Cost_10"/>
+        <field name="Cost_100"/>
+        <field name="Cost_500"/>
+        <field name="Cost_1000"/>
+        <field name="Cost_2500"/>
+        <field name="Cost_5000"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Workart" part="WA_APS_Logo">
       <description>~</description>
       <docs>~</docs>
@@ -9768,7 +9821,7 @@
         <field name="Datasheet"/>
         <field name="Description">CAP CER 1UF 6.3V X5R 0402</field>
         <field name="Revision">1</field>
-        <field name="IPN">IPN_C-????</field>
+        <field name="IPN">IPN_C-0008</field>
         <field name="Part Number">C0402_1uF_6.3V_±10%_X5R</field>
         <field name="Symbol Revision">1</field>
         <field name="Footprint Revision">1</field>

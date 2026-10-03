@@ -1,0 +1,10 @@
+tessera|tessera.kicad_sch||tessera|tessera
+Block Diagram|Block Diagram.kicad_sch||Block Diagram|tessera-Block Diagram
+Project Architecture|Project Architecture.kicad_sch||Project Architecture|tessera-Project Architecture
+Leds|Leds.kicad_sch||Leds|tessera-Project Architecture-Leds
+mcu|mcu.kicad_sch||MCU|tessera-Project Architecture-MCU
+nfc|nfc.kicad_sch||NFC|tessera-Project Architecture-NFC
+stsafe120|stsafe120.kicad_sch||Secure element|tessera-Project Architecture-Secure element
+USB_Conn|USB_Conn.kicad_sch||USB|tessera-Project Architecture-USB
+power|power.kicad_sch||power|tessera-Project Architecture-power
+Revision History|Revision History.kicad_sch||Revision History|tessera-Revision History
