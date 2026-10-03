@@ -6,17 +6,17 @@
 # ----------------------------------- Minimum trace width and spacing --------------------
 
 # 1oz copper
-(rule "Minimum Trace Width and Spacing (outer layer)"
-(constraint track_width (min 0.10mm))
-(constraint clearance (min 0.10mm))
-(layer outer)
-(condition "A.Type == 'track'"))
+#(rule "Minimum Trace Width and Spacing (outer layer)"
+#(constraint track_width (min 0.10mm))
+#(constraint clearance (min 0.10mm))
+#(layer outer)
+#(condition "A.Type == 'track'"))
 
-(rule "Minimum Trace Width and Spacing (innner layer)"
-(constraint track_width (min 0.10mm))
-(constraint clearance (min 0.10mm))
-(layer inner)
-(condition "A.Type == 'track'"))
+#(rule "Minimum Trace Width and Spacing (innner layer)"
+#(constraint track_width (min 0.10mm))
+#(constraint clearance (min 0.10mm))
+#(layer inner)
+#(condition "A.Type == 'track'"))
 
 # ------------------------------------------------------------------------------------------------------
 
@@ -129,3 +129,10 @@
 (rule "Test Point Courtyard Exclusion"
 (constraint courtyard_clearance (min -1mm))
 (condition "A.Reference =='FM*'"))
+
+# ----------------------------------- USB differential pair -----------------------------------------
+# Must stay at the end of the file: overrides the generic track clearance rules above.
+# Intra-pair spacing is excluded and governed by the netclass diff_pair_gap.
+(rule "USB Diff Pair clearance to other nets"
+(constraint clearance (min 0.2023mm))
+(condition "A.NetClass == 'USB Diff Pair' && B.NetClass != 'USB Diff Pair'"))

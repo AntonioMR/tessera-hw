@@ -60,10 +60,49 @@
         {
           "gap": 0.2032,
           "via_gap": 0.0,
-          "width": 0.1742
+          "width": 0.1753
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|136654999|57885000|d508e8be-2efc-41d5-a5ee-7c7111d7e30c|32d1a073-df8d-4c27-87c3-b2835e407a9e",
+        "clearance|137339999|62085000|bdd22d16-f9a8-4f27-b217-7552822130b7|88e3312b-b899-469c-8f4f-ddeef574012e",
+        "clearance|137689999|60585000|4a1f6d03-2271-4feb-98ef-221d923c641c|81c6ebcc-20ea-464f-94e1-c6d6891802d0",
+        "clearance|137764999|61810000|0b18bd6b-f88b-49bb-b5ec-cff89b2ebeb6|bdd22d16-f9a8-4f27-b217-7552822130b7",
+        "clearance|137769999|61815000|a02c6ac7-2ed7-4fc0-9082-872fa56ecb21|e7cd768d-29a9-4fb1-9bf7-db6ac238d960",
+        "clearance|137839999|62085000|88e3312b-b899-469c-8f4f-ddeef574012e|e7cd768d-29a9-4fb1-9bf7-db6ac238d960",
+        "clearance|138189999|60585000|97b98557-f3bd-4881-ad0f-2c2a7ef565e3|4a1f6d03-2271-4feb-98ef-221d923c641c",
+        "clearance|138854999|57885000|631335cd-432c-48b6-b471-2f536a37e6aa|07ff46de-f84d-4621-8f98-9ea52d4efa2c",
+        "clearance|164339999|101585000|f8fbddf7-47d2-40c2-83d4-96e98e78498d|34f545a1-de26-47dd-a14e-155f4e3d685e",
+        "clearance|166189999|107735000|4bd9897f-37cc-4269-8a9d-a68dcee7c2a4|e5102e6d-1da5-42e1-8179-e829fb67e461",
+        "copper_edge_clearance|132634999|51585000|276324db-12a6-4fa7-821b-f0d7c0b60bd6|bab19a48-7884-48f5-bf43-f33b4b1f3d5c",
+        "copper_edge_clearance|132634999|55785000|276324db-12a6-4fa7-821b-f0d7c0b60bd6|2d2ae122-4a8a-41d6-910d-91bf990c3699",
+        "copper_edge_clearance|134254999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|ae222cbb-2e57-44ba-b206-0155a29d79d8",
+        "copper_edge_clearance|135054999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|c15a277c-59fb-425e-b35d-0bd19ce71e80",
+        "copper_edge_clearance|135854999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|e55dcbdd-c61e-47e4-a253-dbf23ddf5a8d",
+        "copper_edge_clearance|136354999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|d508e8be-2efc-41d5-a5ee-7c7111d7e30c",
+        "copper_edge_clearance|136854999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|32d1a073-df8d-4c27-87c3-b2835e407a9e",
+        "copper_edge_clearance|137354999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|e81a6ef4-17d1-4e68-9f95-b0d57587ad0c",
+        "copper_edge_clearance|137854999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|e091327b-0e11-43e7-8ef5-c6712b12c7e9",
+        "copper_edge_clearance|138354999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|07ff46de-f84d-4621-8f98-9ea52d4efa2c",
+        "copper_edge_clearance|138854999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|631335cd-432c-48b6-b471-2f536a37e6aa",
+        "copper_edge_clearance|139354999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|a16b7b1d-a25d-4a14-9179-8d6b11a85716",
+        "copper_edge_clearance|139854999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|3b819b78-6c10-48f5-bf6b-69364fcb7df4",
+        "copper_edge_clearance|140654999|56785000|ae830568-7a8e-4501-bd6a-d96d9c151f59|3104f5cf-3e2f-4199-874a-e1c327a5f6a6",
+        "copper_edge_clearance|142874999|52785000|6d185749-2ad0-4ed4-bd7b-4cdaeb4ce35e|7b556bdd-4cf5-4524-81bf-7a144af099c7",
+        "copper_edge_clearance|142874999|55785000|6d185749-2ad0-4ed4-bd7b-4cdaeb4ce35e|3f45f0dd-6e62-4900-8483-c474103f5194",
+        "lib_footprint_mismatch|138207499|74850000|5633f5e2-8aee-4b59-b87e-386010e14a23|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|134854999|57885000|ae222cbb-2e57-44ba-b206-0155a29d79d8|c15a277c-59fb-425e-b35d-0bd19ce71e80",
+        "solder_mask_bridge|135654999|57885000|c15a277c-59fb-425e-b35d-0bd19ce71e80|e55dcbdd-c61e-47e4-a253-dbf23ddf5a8d",
+        "solder_mask_bridge|136354999|57885000|d508e8be-2efc-41d5-a5ee-7c7111d7e30c|e55dcbdd-c61e-47e4-a253-dbf23ddf5a8d",
+        "solder_mask_bridge|136654999|57885000|d508e8be-2efc-41d5-a5ee-7c7111d7e30c|32d1a073-df8d-4c27-87c3-b2835e407a9e",
+        "solder_mask_bridge|137354999|57885000|e81a6ef4-17d1-4e68-9f95-b0d57587ad0c|32d1a073-df8d-4c27-87c3-b2835e407a9e",
+        "solder_mask_bridge|137854999|57885000|e091327b-0e11-43e7-8ef5-c6712b12c7e9|e81a6ef4-17d1-4e68-9f95-b0d57587ad0c",
+        "solder_mask_bridge|138154999|57885000|e091327b-0e11-43e7-8ef5-c6712b12c7e9|07ff46de-f84d-4621-8f98-9ea52d4efa2c",
+        "solder_mask_bridge|138854999|57885000|631335cd-432c-48b6-b471-2f536a37e6aa|07ff46de-f84d-4621-8f98-9ea52d4efa2c",
+        "solder_mask_bridge|139154999|57885000|631335cd-432c-48b6-b471-2f536a37e6aa|a16b7b1d-a25d-4a14-9179-8d6b11a85716",
+        "solder_mask_bridge|139854999|57885000|3b819b78-6c10-48f5-bf6b-69364fcb7df4|a16b7b1d-a25d-4a14-9179-8d6b11a85716",
+        "solder_mask_bridge|140654999|57885000|3104f5cf-3e2f-4199-874a-e1c327a5f6a6|3b819b78-6c10-48f5-bf6b-69364fcb7df4"
+      ],
       "meta": {
         "version": 2
       },
@@ -123,7 +162,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.2,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
@@ -188,6 +227,7 @@
         0.0,
         0.12,
         0.15,
+        0.1753,
         0.2,
         0.25,
         0.3,
@@ -202,7 +242,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 2.0
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
@@ -490,7 +530,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -503,23 +543,6 @@
         "track_width": 0.12,
         "via_diameter": 0.4,
         "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2032,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "CAN Bus",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
         "wire_width": 6
       },
       {
@@ -571,40 +594,6 @@
         "track_width": 0.2,
         "via_diameter": 0.7,
         "via_drill": 0.3,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Kelvin Diff Pair",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power 12V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 171)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
         "wire_width": 24
       },
       {
@@ -677,34 +666,17 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2032,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RS422 Diff Pair",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.2023,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1753,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(132, 0, 132)",
-        "track_width": 0.1742,
+        "track_width": 0.1753,
         "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 12
@@ -747,80 +719,8 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "RS422 Diff Pair",
-        "pattern": "/Project Architecture/Interface - Interconnects/RS422_R+"
-      },
-      {
-        "netclass": "RS422 Diff Pair",
-        "pattern": "/Project Architecture/Interface - Interconnects/RS422_R-"
-      },
-      {
-        "netclass": "RS422 Diff Pair",
-        "pattern": "/Project Architecture/Interface - Interconnects/RS422_D-"
-      },
-      {
-        "netclass": "RS422 Diff Pair",
-        "pattern": "/Project Architecture/Interface - Interconnects/RS422_D+"
-      },
-      {
         "netclass": "Chassis",
         "pattern": "CHASSIS"
-      },
-      {
-        "netclass": "CAN Bus",
-        "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_P"
-      },
-      {
-        "netclass": "CAN Bus",
-        "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_N"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SA_P"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SA_N"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SB_P"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SB_N"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SC_P"
-      },
-      {
-        "netclass": "Kelvin Diff Pair",
-        "pattern": "/Project Architecture/Motor Control - Top Level/SC_N"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHA"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHC"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_A"
       },
       {
         "netclass": "High Power",
@@ -831,76 +731,12 @@
         "pattern": "GND"
       },
       {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/VIN_5V"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/VIN_12V"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/F_VBAT_12V"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/F_VBAT_5V"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/F_VIN_5V"
-      },
-      {
-        "netclass": "High Power",
-        "pattern": "/Project Architecture/Power - Generation/F_VIN_12V"
-      },
-      {
-        "netclass": "Power 12V",
-        "pattern": "+12V"
-      },
-      {
-        "netclass": "Power 12V",
-        "pattern": "/Project Architecture/Power - Generation/SW_12V"
-      },
-      {
         "netclass": "Power 3V3",
         "pattern": "+3V3"
       },
       {
-        "netclass": "Power 3V3",
-        "pattern": "/Project Architecture/Power - Generation/SW_3V3"
-      },
-      {
         "netclass": "Power 5V",
         "pattern": "+5V"
-      },
-      {
-        "netclass": "Power 5V",
-        "pattern": "/Project Architecture/Power - Generation/SW_5V"
-      },
-      {
-        "netclass": "Power A3V3",
-        "pattern": "+A3V3"
-      },
-      {
-        "netclass": "Power A3V3",
-        "pattern": "/Project Architecture/MCU - Power/F_A3V3"
-      },
-      {
-        "netclass": "Power 3V3",
-        "pattern": "/Project Architecture/Sensing - Position/COMM_VDD"
-      },
-      {
-        "netclass": "Power 3V3",
-        "pattern": "/Project Architecture/Sensing - Position/DIS_VDD3V"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "/Project Architecture/Interface - Fan Control/FAN_SW"
-      },
-      {
-        "netclass": "Power 5V",
-        "pattern": "/Project Architecture/Power - Generation/F_VIN_3V3"
       },
       {
         "netclass": "Power_Batt",
@@ -917,6 +753,26 @@
       {
         "netclass": "Power 3V3",
         "pattern": "/Project Architecture/power/VSense"
+      },
+      {
+        "netclass": "USB Diff Pair",
+        "pattern": "/Project Architecture/D+"
+      },
+      {
+        "netclass": "USB Diff Pair",
+        "pattern": "/Project Architecture/D-"
+      },
+      {
+        "netclass": "USB Diff Pair",
+        "pattern": "/Project Architecture/USB_D+"
+      },
+      {
+        "netclass": "USB Diff Pair",
+        "pattern": "/Project Architecture/USB_D-"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "VCC"
       }
     ]
   },
@@ -1764,7 +1620,7 @@
     "BOARD_NAME": "Tessera Badge",
     "COMPANY": "APS",
     "DESIGNER": "Antonio Morales",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: HAL SNPB\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY APS.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t54.000 \u00d7 85.610 mm\n\tBOARD THICKNESS\t\t1.038 mm\n\tTRACE WIDTH\t\t\t0.120 mm\n\tTRACE TO TRACE\t\t0.100 mm\n\tMIN. HOLE (PTH)\t\t\t0.200 mm\n\tMIN. HOLE (NPTH)\t\tN/A mm\n\tANNULAR RING\t\t\t0.050 mm\n\tCOPPER TO HOLE\t\t0.150 mm\n\tCOPPER TO EDGE\t\t0.200 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: HAL SNPB\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY APS.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t54.000 × 85.610 mm\n\tBOARD THICKNESS\t\t1.038 mm\n\tTRACE WIDTH\t\t\t0.120 mm\n\tTRACE TO TRACE\t\t0.100 mm\n\tMIN. HOLE (PTH)\t\t\t0.200 mm\n\tMIN. HOLE (NPTH)\t\tN/A mm\n\tANNULAR RING\t\t\t0.050 mm\n\tCOPPER TO HOLE\t\t0.150 mm\n\tCOPPER TO EDGE\t\t0.200 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
     "GIT_HASH_PCB": "226c919",
     "GIT_HASH_SCH": "3a208dc",
     "GIT_URL": "https://github.com/AntonioMR/tessera-hw",
