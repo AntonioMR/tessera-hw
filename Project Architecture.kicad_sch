@@ -5194,6 +5194,48 @@
 		)
 		(uuid "1a74b37e-65a3-4e62-af10-505fb68bb963")
 	)
+	(text_box "BOTTOM"
+		(exclude_from_sim no)
+		(at 163.195 240.03 0)
+		(size 22.86 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "1b1089fb-9665-4386-8f1e-99daa796387b")
+	)
+	(text_box "TOP"
+		(exclude_from_sim no)
+		(at 163.195 222.885 0)
+		(size 22.86 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "27c1377d-cc3e-4e76-ac75-1dbfdb6e8c97")
+	)
 	(text_box "Batt charger & Main power supply"
 		(exclude_from_sim no)
 		(at 35.56 143.51 0)
@@ -5940,7 +5982,7 @@
 	)
 	(symbol
 		(lib_id "catalog:Mechanical/FIDUCIAL_D1_0mm_Mask_2_0mm")
-		(at 173.99 245.11 0)
+		(at 175.26 240.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5948,7 +5990,7 @@
 		(dnp no)
 		(uuid "0f82a57c-bf1d-45b5-803f-4224b9be3ec7")
 		(property "Reference" "MECH2"
-			(at 170.688 238.76 0)
+			(at 171.958 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +5999,7 @@
 			)
 		)
 		(property "Value" "FIDUCIAL"
-			(at 170.688 241.3 0)
+			(at 171.958 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +6008,7 @@
 			)
 		)
 		(property "Footprint" "Mechanical:Fiducial_1mm_Mask2mm"
-			(at 179.07 245.11 0)
+			(at 180.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,7 +6017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 245.11 0)
+			(at 180.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +6026,7 @@
 			)
 		)
 		(property "Description" "Fiducial 1mm diameter 2mm mask"
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +6035,7 @@
 			)
 		)
 		(property "IPN" "IPN_MECH-0001"
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6044,7 @@
 			)
 		)
 		(property "Part Number" "FIDUCIAL_D1_0mm_Mask_2_0mm"
-			(at 176.53 247.6499 0)
+			(at 177.8 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +6054,7 @@
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +6063,7 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6072,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +6081,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,7 +6090,7 @@
 			)
 		)
 		(property "Suplier URL" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6099,7 @@
 			)
 		)
 		(property "Manufacturer Alternative" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +6108,7 @@
 			)
 		)
 		(property "MPN Alternative" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,7 +6117,7 @@
 			)
 		)
 		(property "Manufacturer Alternative 2" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6126,7 @@
 			)
 		)
 		(property "MPN Alternative 2" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6135,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6144,7 @@
 			)
 		)
 		(property "Dimensions" "1"
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6153,7 @@
 			)
 		)
 		(property "Material" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,7 +6162,7 @@
 			)
 		)
 		(property "Mounting" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6171,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +6180,7 @@
 			)
 		)
 		(property "RoHS" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6189,7 @@
 			)
 		)
 		(property "Created By" "AMR"
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6198,7 @@
 			)
 		)
 		(property "Created On" "14/09/26"
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6207,7 @@
 			)
 		)
 		(property "Approved By" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6216,7 @@
 			)
 		)
 		(property "Approved On" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6225,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6234,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6243,7 @@
 			)
 		)
 		(property "Cost_1" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6252,7 @@
 			)
 		)
 		(property "Cost_10" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6261,7 @@
 			)
 		)
 		(property "Cost_100" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6270,7 @@
 			)
 		)
 		(property "Cost_500" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6279,7 @@
 			)
 		)
 		(property "Cost_1000" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +6288,7 @@
 			)
 		)
 		(property "Cost_2500" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6297,7 @@
 			)
 		)
 		(property "Cost_5000" ""
-			(at 173.99 245.11 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,6 +6375,340 @@
 			(project "tessera"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "catalog:Mechanical/FIDUCIAL_D1_0mm_Mask_2_0mm")
+		(at 175.26 256.54 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "19c3960c-eb71-41c2-ad41-21d48c3460c2")
+		(property "Reference" "MECH5"
+			(at 171.958 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FIDUCIAL"
+			(at 171.958 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mechanical:Fiducial_1mm_Mask2mm"
+			(at 180.34 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial 1mm diameter 2mm mask"
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "IPN_MECH-0001"
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "FIDUCIAL_D1_0mm_Mask_2_0mm"
+			(at 177.8 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Revision" "1"
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Revision" "1"
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier URL" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative 2" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative 2" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1"
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "AMR"
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created On" "14/09/26"
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved By" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved On" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_10" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_100" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_500" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1000" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_2500" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_5000" ""
+			(at 175.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "tessera"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "MECH5")
 					(unit 1)
 				)
 			)
@@ -8554,7 +8930,7 @@
 	)
 	(symbol
 		(lib_id "catalog:Mechanical/FIDUCIAL_D1_0mm_Mask_2_0mm")
-		(at 161.29 245.11 0)
+		(at 162.56 240.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8562,7 +8938,7 @@
 		(dnp no)
 		(uuid "63229a96-7fe0-4305-9be9-2be7cd5f86d9")
 		(property "Reference" "MECH1"
-			(at 157.988 238.76 0)
+			(at 159.258 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,7 +8947,7 @@
 			)
 		)
 		(property "Value" "FIDUCIAL"
-			(at 157.988 241.3 0)
+			(at 159.258 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8956,7 @@
 			)
 		)
 		(property "Footprint" "Mechanical:Fiducial_1mm_Mask2mm"
-			(at 166.37 245.11 0)
+			(at 167.64 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,7 +8965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 245.11 0)
+			(at 167.64 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +8974,7 @@
 			)
 		)
 		(property "Description" "Fiducial 1mm diameter 2mm mask"
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +8983,7 @@
 			)
 		)
 		(property "IPN" "IPN_MECH-0001"
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,7 +8992,7 @@
 			)
 		)
 		(property "Part Number" "FIDUCIAL_D1_0mm_Mask_2_0mm"
-			(at 163.83 247.6499 0)
+			(at 165.1 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +9002,7 @@
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8635,7 +9011,7 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +9020,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8653,7 +9029,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,7 +9038,7 @@
 			)
 		)
 		(property "Suplier URL" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +9047,7 @@
 			)
 		)
 		(property "Manufacturer Alternative" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +9056,7 @@
 			)
 		)
 		(property "MPN Alternative" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +9065,7 @@
 			)
 		)
 		(property "Manufacturer Alternative 2" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +9074,7 @@
 			)
 		)
 		(property "MPN Alternative 2" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +9083,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +9092,7 @@
 			)
 		)
 		(property "Dimensions" "1"
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +9101,7 @@
 			)
 		)
 		(property "Material" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +9110,7 @@
 			)
 		)
 		(property "Mounting" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +9119,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +9128,7 @@
 			)
 		)
 		(property "RoHS" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +9137,7 @@
 			)
 		)
 		(property "Created By" "AMR"
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +9146,7 @@
 			)
 		)
 		(property "Created On" "14/09/26"
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,7 +9155,7 @@
 			)
 		)
 		(property "Approved By" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8788,7 +9164,7 @@
 			)
 		)
 		(property "Approved On" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +9173,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8806,7 +9182,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +9191,7 @@
 			)
 		)
 		(property "Cost_1" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +9200,7 @@
 			)
 		)
 		(property "Cost_10" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,7 +9209,7 @@
 			)
 		)
 		(property "Cost_100" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,7 +9218,7 @@
 			)
 		)
 		(property "Cost_500" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,7 +9227,7 @@
 			)
 		)
 		(property "Cost_1000" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,7 +9236,7 @@
 			)
 		)
 		(property "Cost_2500" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +9245,7 @@
 			)
 		)
 		(property "Cost_5000" ""
-			(at 161.29 245.11 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +9264,7 @@
 	)
 	(symbol
 		(lib_id "catalog:Mechanical/FIDUCIAL_D1_0mm_Mask_2_0mm")
-		(at 186.69 245.11 0)
+		(at 187.96 240.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8896,7 +9272,7 @@
 		(dnp no)
 		(uuid "634d57df-1e3d-4353-b70d-55837b3f0aea")
 		(property "Reference" "MECH3"
-			(at 183.388 238.76 0)
+			(at 184.658 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +9281,7 @@
 			)
 		)
 		(property "Value" "FIDUCIAL"
-			(at 183.388 241.3 0)
+			(at 184.658 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +9290,7 @@
 			)
 		)
 		(property "Footprint" "Mechanical:Fiducial_1mm_Mask2mm"
-			(at 191.77 245.11 0)
+			(at 193.04 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +9299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 245.11 0)
+			(at 193.04 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,7 +9308,7 @@
 			)
 		)
 		(property "Description" "Fiducial 1mm diameter 2mm mask"
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,7 +9317,7 @@
 			)
 		)
 		(property "IPN" "IPN_MECH-0001"
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +9326,7 @@
 			)
 		)
 		(property "Part Number" "FIDUCIAL_D1_0mm_Mask_2_0mm"
-			(at 189.23 247.6499 0)
+			(at 190.5 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +9336,7 @@
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +9345,7 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,7 +9354,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,7 +9363,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +9372,7 @@
 			)
 		)
 		(property "Suplier URL" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,7 +9381,7 @@
 			)
 		)
 		(property "Manufacturer Alternative" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9014,7 +9390,7 @@
 			)
 		)
 		(property "MPN Alternative" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9023,7 +9399,7 @@
 			)
 		)
 		(property "Manufacturer Alternative 2" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9032,7 +9408,7 @@
 			)
 		)
 		(property "MPN Alternative 2" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9041,7 +9417,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9050,7 +9426,7 @@
 			)
 		)
 		(property "Dimensions" "1"
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,7 +9435,7 @@
 			)
 		)
 		(property "Material" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +9444,7 @@
 			)
 		)
 		(property "Mounting" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,7 +9453,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +9462,7 @@
 			)
 		)
 		(property "RoHS" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,7 +9471,7 @@
 			)
 		)
 		(property "Created By" "AMR"
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9104,7 +9480,7 @@
 			)
 		)
 		(property "Created On" "14/09/26"
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,7 +9489,7 @@
 			)
 		)
 		(property "Approved By" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +9498,7 @@
 			)
 		)
 		(property "Approved On" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9507,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9140,7 +9516,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9149,7 +9525,7 @@
 			)
 		)
 		(property "Cost_1" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,7 +9534,7 @@
 			)
 		)
 		(property "Cost_10" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +9543,7 @@
 			)
 		)
 		(property "Cost_100" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +9552,7 @@
 			)
 		)
 		(property "Cost_500" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9561,7 @@
 			)
 		)
 		(property "Cost_1000" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9570,7 @@
 			)
 		)
 		(property "Cost_2500" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9579,7 @@
 			)
 		)
 		(property "Cost_5000" ""
-			(at 186.69 245.11 0)
+			(at 187.96 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,6 +9729,340 @@
 			(project "tessera"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "catalog:Mechanical/FIDUCIAL_D1_0mm_Mask_2_0mm")
+		(at 162.56 256.54 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6982243d-1694-4995-9258-748701538a5d")
+		(property "Reference" "MECH4"
+			(at 159.258 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FIDUCIAL"
+			(at 159.258 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mechanical:Fiducial_1mm_Mask2mm"
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial 1mm diameter 2mm mask"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "IPN_MECH-0001"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "FIDUCIAL_D1_0mm_Mask_2_0mm"
+			(at 165.1 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Revision" "1"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Revision" "1"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier URL" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative 2" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative 2" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "AMR"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created On" "14/09/26"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved By" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved On" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_10" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_100" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_500" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1000" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_2500" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_5000" ""
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "tessera"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "MECH4")
 					(unit 1)
 				)
 			)
@@ -12583,6 +13293,340 @@
 			(project "tessera"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "catalog:Mechanical/FIDUCIAL_D1_0mm_Mask_2_0mm")
+		(at 187.96 256.54 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6bdc55a-3e34-4718-8d40-6fe33d56ecd6")
+		(property "Reference" "MECH6"
+			(at 184.658 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FIDUCIAL"
+			(at 184.658 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mechanical:Fiducial_1mm_Mask2mm"
+			(at 193.04 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial 1mm diameter 2mm mask"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "IPN_MECH-0001"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "FIDUCIAL_D1_0mm_Mask_2_0mm"
+			(at 190.5 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Revision" "1"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Revision" "1"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier URL" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alternative 2" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alternative 2" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "AMR"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created On" "14/09/26"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved By" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Approved On" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_10" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_100" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_500" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_1000" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_2500" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost_5000" ""
+			(at 187.96 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "tessera"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "MECH6")
 					(unit 1)
 				)
 			)
