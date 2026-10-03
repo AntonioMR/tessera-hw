@@ -21,6 +21,9 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "MECH1","FIDUCIAL","Fiducial_1mm_Mask2mm",0.0000,0.0000,0.0000,top
 "MECH2","FIDUCIAL","Fiducial_1mm_Mask2mm",47.6500,79.2400,0.0000,top
 "MECH3","FIDUCIAL","Fiducial_1mm_Mask2mm",47.6500,0.0000,0.0000,top
+"MECH4","FIDUCIAL","Fiducial_1mm_Mask2mm",0.0000,0.0000,180.0000,bottom
+"MECH5","FIDUCIAL","Fiducial_1mm_Mask2mm",47.6500,79.2400,180.0000,bottom
+"MECH6","FIDUCIAL","Fiducial_1mm_Mask2mm",47.6500,0.0000,180.0000,bottom
 "Q1","NTK3139P","SOT-723",11.4150,51.7800,-90.0000,top
 "Q2","NTK3134N","SOT-723",31.7400,73.3850,0.0000,top
 "Q3","NTK3134N","SOT-723",31.7400,75.7150,0.0000,top
