@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "BLE MCU")
-		(date "2026-10-03")
+		(date "2026-10-11")
 	)
 	(lib_symbols
 		(symbol "catalog:Capacitors/C0402_100nF_16V_±10%_X7R"
@@ -5724,20 +5724,12 @@
 		(uuid "3d8b749e-f181-4e16-a9ba-50c9f5fb6334")
 	)
 	(no_connect
-		(at 245.11 158.75)
-		(uuid "4183e026-1ecb-4f41-8094-61bbbffb52d4")
-	)
-	(no_connect
 		(at 323.85 143.51)
 		(uuid "55893d67-703d-4f3f-b5d8-fe11abf799b6")
 	)
 	(no_connect
 		(at 323.85 118.11)
 		(uuid "590847a5-837f-4cf9-8aed-83494d10335d")
-	)
-	(no_connect
-		(at 88.9 181.61)
-		(uuid "5f26ab21-a2c3-4844-8f3a-a354adf33166")
 	)
 	(no_connect
 		(at 323.85 107.95)
@@ -5768,16 +5760,8 @@
 		(uuid "7796a4fa-b09d-453b-91d6-ab294a7a9864")
 	)
 	(no_connect
-		(at 101.6 181.61)
-		(uuid "86de81f8-f7f4-436e-881c-9c9668bd5066")
-	)
-	(no_connect
 		(at 245.11 163.83)
 		(uuid "8c0fc013-f3cd-455f-981d-d5781f923cc5")
-	)
-	(no_connect
-		(at 245.11 153.67)
-		(uuid "8e57afe4-0f60-483f-b58a-18252314819a")
 	)
 	(no_connect
 		(at 323.85 102.87)
@@ -5827,7 +5811,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 134.62) (xy 245.11 134.62)
+			(xy 232.41 134.62) (xy 245.11 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5837,7 +5821,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 143.51) (xy 245.11 143.51)
+			(xy 232.41 143.51) (xy 245.11 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5967,13 +5951,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 151.13) (xy 245.11 151.13)
+			(xy 232.41 151.13) (xy 245.11 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "34564dd3-3015-4d51-87c0-cd2da8032b26")
+	)
+	(wire
+		(pts
+			(xy 69.85 181.61) (xy 88.9 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359a4728-223b-4413-a52a-92f5754474d1")
 	)
 	(wire
 		(pts
@@ -6047,7 +6041,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 124.46) (xy 234.95 124.46)
+			(xy 245.11 124.46) (xy 232.41 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6097,7 +6091,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 116.84) (xy 245.11 116.84)
+			(xy 232.41 116.84) (xy 245.11 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6107,7 +6101,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 119.38) (xy 245.11 119.38)
+			(xy 232.41 119.38) (xy 245.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6127,7 +6121,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 161.29) (xy 245.11 161.29)
+			(xy 232.41 161.29) (xy 245.11 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6207,7 +6201,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 132.08) (xy 245.11 132.08)
+			(xy 232.41 132.08) (xy 245.11 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6248,7 +6242,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 111.76) (xy 245.11 111.76)
+			(xy 232.41 111.76) (xy 245.11 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6358,7 +6352,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 138.43) (xy 245.11 138.43)
+			(xy 232.41 138.43) (xy 245.11 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6459,7 +6453,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 114.3) (xy 245.11 114.3)
+			(xy 232.41 114.3) (xy 245.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6516,6 +6510,16 @@
 			(type default)
 		)
 		(uuid "c0148cd9-fddf-455d-9fb8-c7631bd5feea")
+	)
+	(wire
+		(pts
+			(xy 234.95 153.67) (xy 245.11 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c050dec7-9d7c-46d4-8334-e4223d096207")
 	)
 	(wire
 		(pts
@@ -6599,7 +6603,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 166.37) (xy 245.11 166.37)
+			(xy 232.41 166.37) (xy 245.11 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6679,13 +6683,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 127) (xy 245.11 127)
+			(xy 232.41 127) (xy 245.11 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "daf763e3-01b0-4a1b-889b-4de0846f48f4")
+	)
+	(wire
+		(pts
+			(xy 234.95 158.75) (xy 245.11 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df037977-9468-4d50-9c51-69966643d3e4")
 	)
 	(wire
 		(pts
@@ -6699,7 +6713,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 148.59) (xy 245.11 148.59)
+			(xy 232.41 148.59) (xy 245.11 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6716,6 +6730,16 @@
 			(type default)
 		)
 		(uuid "e9579751-80ad-48c8-bd32-deecc76cfaed")
+	)
+	(wire
+		(pts
+			(xy 101.6 181.61) (xy 139.7 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee998666-e6f2-4fbc-9aaf-b8c09f5937c5")
 	)
 	(wire
 		(pts
@@ -6739,7 +6763,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 109.22) (xy 245.11 109.22)
+			(xy 232.41 109.22) (xy 245.11 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6799,7 +6823,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 121.92) (xy 245.11 121.92)
+			(xy 232.41 121.92) (xy 245.11 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7622,6 +7646,17 @@
 		)
 		(uuid "fe9f46d2-36f9-4b64-a48c-eaec8ef65dcf")
 	)
+	(label "UART_RX"
+		(at 234.95 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b220a3e-fa08-4655-b62f-54cf2a37b804")
+	)
 	(label "SWDCLK"
 		(at 337.82 153.67 180)
 		(fields_autoplaced yes)
@@ -7655,6 +7690,17 @@
 		)
 		(uuid "5d31fe2a-8ff2-44a7-abcb-e8d8dbbbc7d2")
 	)
+	(label "UART_RX"
+		(at 139.7 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f92a4e5-3e9e-4ebf-b66f-2a3ee4f91116")
+	)
 	(label "RESET"
 		(at 237.49 104.14 0)
 		(fields_autoplaced yes)
@@ -7665,6 +7711,17 @@
 			(justify left bottom)
 		)
 		(uuid "84255cc7-f0f1-4146-a7a0-1f42252b0921")
+	)
+	(label "UART_TX"
+		(at 234.95 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "889b60cc-4b3b-4326-a153-28e96d92050a")
 	)
 	(label "SWDCLK"
 		(at 139.7 176.53 180)
@@ -7687,6 +7744,17 @@
 			(justify right bottom)
 		)
 		(uuid "a00bb99e-8938-468b-8220-aca83e9f002e")
+	)
+	(label "UART_TX"
+		(at 69.85 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1e20224-f204-447b-ae35-d7e895d23a09")
 	)
 	(label "SWDO"
 		(at 337.82 138.43 180)
@@ -7712,7 +7780,7 @@
 	)
 	(hierarchical_label "SYS_LED"
 		(shape output)
-		(at 234.95 161.29 180)
+		(at 232.41 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7724,7 +7792,7 @@
 	)
 	(hierarchical_label "SCL2"
 		(shape output)
-		(at 234.95 116.84 180)
+		(at 232.41 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7736,7 +7804,7 @@
 	)
 	(hierarchical_label "CHG_PG"
 		(shape input)
-		(at 234.95 138.43 180)
+		(at 232.41 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7748,7 +7816,7 @@
 	)
 	(hierarchical_label "SEC_RST"
 		(shape output)
-		(at 234.95 134.62 180)
+		(at 232.41 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7772,7 +7840,7 @@
 	)
 	(hierarchical_label "NFC_INT"
 		(shape input)
-		(at 234.95 127 180)
+		(at 232.41 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7784,7 +7852,7 @@
 	)
 	(hierarchical_label "SDA2"
 		(shape bidirectional)
-		(at 234.95 109.22 180)
+		(at 232.41 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7796,7 +7864,7 @@
 	)
 	(hierarchical_label "USB_LED"
 		(shape output)
-		(at 234.95 151.13 180)
+		(at 232.41 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7820,7 +7888,7 @@
 	)
 	(hierarchical_label "SEC_PW_CTRL"
 		(shape output)
-		(at 234.95 148.59 180)
+		(at 232.41 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7844,7 +7912,7 @@
 	)
 	(hierarchical_label "USR_PB"
 		(shape input)
-		(at 234.95 166.37 180)
+		(at 232.41 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7856,7 +7924,7 @@
 	)
 	(hierarchical_label "NFC_LOW_PWR"
 		(shape output)
-		(at 234.95 143.51 180)
+		(at 232.41 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7868,7 +7936,7 @@
 	)
 	(hierarchical_label "HW_VER_0"
 		(shape input)
-		(at 234.95 121.92 180)
+		(at 232.41 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7880,7 +7948,7 @@
 	)
 	(hierarchical_label "CHG_STAT"
 		(shape input)
-		(at 234.95 114.3 180)
+		(at 232.41 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7892,7 +7960,7 @@
 	)
 	(hierarchical_label "SDA1"
 		(shape bidirectional)
-		(at 234.95 111.76 180)
+		(at 232.41 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7904,7 +7972,7 @@
 	)
 	(hierarchical_label "HW_VER_2"
 		(shape input)
-		(at 234.95 124.46 180)
+		(at 232.41 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7928,7 +7996,7 @@
 	)
 	(hierarchical_label "HW_VER_1"
 		(shape input)
-		(at 234.95 119.38 180)
+		(at 232.41 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7940,7 +8008,7 @@
 	)
 	(hierarchical_label "SCL1"
 		(shape output)
-		(at 234.95 132.08 180)
+		(at 232.41 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

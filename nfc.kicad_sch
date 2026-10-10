@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "NFC Interface")
-		(date "2026-10-03")
+		(date "2026-10-11")
 	)
 	(lib_symbols
 		(symbol "catalog:Antennas/NFC_40x30_N9_ST_ST25DV"

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Secure Element")
-		(date "2026-10-03")
+		(date "2026-10-11")
 	)
 	(lib_symbols
 		(symbol "catalog:Capacitors/C0402_100nF_16V_±10%_X7R"
