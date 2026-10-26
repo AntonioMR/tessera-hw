@@ -1,4 +1,4 @@
-_local_|2026-10-10|root|Local changes not committed|False|True
+_local_|2026-10-26|root|Local changes not committed|False|True
+fdcb2fb|2026-10-26|Antonio Morales|fix(hardware): mirror secure element power switch|True|True
 0342d82|2026-10-11|Antonio Morales|feat(hardware): route debug UART to J3 and add charger status pull-ups|True|True
 3b55a1f|2026-10-04|Antonio Morales|feat(hardware): add fiducial markers on bottom layer, add via stich and teardrops|True|True
-4a3859d|2026-10-03|Antonio Morales|fix(hardware): tighten PCB edge clearance and diff-pair rules, update logo|True|True

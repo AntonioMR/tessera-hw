@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">0342d82</textvar>
-    <textvar name="GIT_HASH_SCH">0342d82</textvar>
+    <textvar name="GIT_HASH_PCB">fdcb2fb</textvar>
+    <textvar name="GIT_HASH_SCH">fdcb2fb</textvar>
     <textvar name="GIT_URL">https://github.com/AntonioMR/tessera-hw</textvar>
     <textvar name="PROJECT_NAME">Tessera</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">11-Oct-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-10-11</textvar>
+    <textvar name="RELEASE_DATE">26-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-26</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -8302,6 +8302,7 @@
       <property name="Footprint Revision" value="1"/>
       <property name="Sheetname" value="NFC"/>
       <property name="Sheetfile" value="nfc.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="antenna nfc"/>
       <property name="ki_fp_filters" value="Antenna_NFC:NFC_40x30_N9_ST_ST25DV"/>
       <sheetpath names="/Project Architecture/NFC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/c43af2fd-53dd-4cd9-902e-f32f5f744ee1/"/>
@@ -12099,7 +12100,7 @@
       <node ref="U4" pin="27" pinfunction="P0_17" pintype="bidirectional"/>
     </net>
     <net code="22" name="/Project Architecture/SEC_RST">
-      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
       <node ref="U4" pin="32" pinfunction="P0_08" pintype="bidirectional"/>
       <node ref="U7" pin="8" pinfunction="/RESET" pintype="input"/>
     </net>
@@ -12194,6 +12195,7 @@
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="R34" pin="2" pintype="passive"/>
       <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
       <node ref="R43" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
@@ -12322,7 +12324,6 @@
     <net code="55" name="Net-(U7-VCC)">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="R41" pin="1" pintype="passive"/>
-      <node ref="R42" pin="1" pintype="passive"/>
       <node ref="U7" pin="2" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="56" name="VBUS">
@@ -12345,7 +12346,7 @@
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
@@ -12370,7 +12371,7 @@
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="60" name="VCC_SEC">
-      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
