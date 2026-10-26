@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "BLE MCU")
-		(date "2026-10-11")
+		(date "2026-10-26")
 	)
 	(lib_symbols
 		(symbol "catalog:Capacitors/C0402_100nF_16V_±10%_X7R"

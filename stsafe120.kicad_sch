@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Secure Element")
-		(date "2026-10-11")
+		(date "2026-10-26")
 	)
 	(lib_symbols
 		(symbol "catalog:Capacitors/C0402_100nF_16V_±10%_X7R"
@@ -2169,22 +2169,16 @@
 		(uuid "29ad49b6-d953-4ffa-81dd-21327d1fb881")
 	)
 	(junction
-		(at 128.27 63.5)
+		(at 129.54 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91fd9684-2150-4cc3-b402-12f63b0f0e12")
+		(uuid "587f028d-9ac0-4ec9-9df9-863f83989039")
 	)
 	(junction
 		(at 142.24 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b82eb83c-4cb6-4741-a55f-96d134dc166f")
-	)
-	(junction
-		(at 128.27 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dce657ea-5eae-4c64-99f6-c04647019b1b")
 	)
 	(wire
 		(pts
@@ -2208,6 +2202,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282350b9-43b4-431d-8e09-ba9c682e2d5d")
+	)
+	(wire
+		(pts
 			(xy 171.45 95.25) (xy 166.37 95.25)
 		)
 		(stroke
@@ -2228,6 +2232,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 95.25) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c92d301-e217-4065-8075-b0ab73fbfcad")
+	)
+	(wire
+		(pts
 			(xy 142.24 63.5) (xy 153.67 63.5)
 		)
 		(stroke
@@ -2235,6 +2249,16 @@
 			(type default)
 		)
 		(uuid "61d90ef3-4813-46fa-a7d0-c6c0720f891a")
+	)
+	(wire
+		(pts
+			(xy 129.54 105.41) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6234b826-a098-430f-a2ed-6079e63bf029")
 	)
 	(wire
 		(pts
@@ -2258,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 63.5) (xy 128.27 63.5)
+			(xy 125.73 63.5) (xy 142.24 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2278,33 +2302,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 95.25) (xy 140.97 95.25)
+			(xy 116.84 95.25) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa47600f-9214-49f3-976e-49438c22953f")
-	)
-	(wire
-		(pts
-			(xy 116.84 95.25) (xy 128.27 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc544661-0adc-4473-8c17-a33fe11414fc")
-	)
-	(wire
-		(pts
-			(xy 128.27 63.5) (xy 128.27 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1423db3-9834-47a4-a35b-767eeda4c53e")
 	)
 	(wire
 		(pts
@@ -2335,26 +2339,6 @@
 			(type default)
 		)
 		(uuid "e90bffd0-78ce-4fbc-a7a9-bbb3a334f4bb")
-	)
-	(wire
-		(pts
-			(xy 128.27 63.5) (xy 125.73 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edfdb18c-fe80-466e-8191-2c53873001b7")
-	)
-	(wire
-		(pts
-			(xy 128.27 83.82) (xy 128.27 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0f6c7ed-39d8-4f77-b103-9af76a2bc5ac")
 	)
 	(wire
 		(pts
@@ -4042,6 +4026,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69cbd9b2-f3bd-43da-8fec-769c8e91cbf7")
+		(property "Reference" "#PWR059"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdf2f70e-8e9e-4df2-8981-ba061683490d")
+		)
+		(instances
+			(project "tessera"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b88e859e-6d3a-419b-8892-0822a309e8ad"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "catalog:Resistors/R0402_0R_0.1W_±5%")
 		(at 171.45 101.6 0)
 		(unit 1)
@@ -4472,7 +4522,7 @@
 	)
 	(symbol
 		(lib_id "catalog:Resistors/R0402_100K_0.063W_±1%")
-		(at 128.27 80.01 0)
+		(at 129.54 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4480,7 +4530,7 @@
 		(dnp no)
 		(uuid "a4e8d97d-98be-40be-8a83-01c6af49d5d8")
 		(property "Reference" "R42"
-			(at 130.048 78.994 0)
+			(at 131.318 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4539,7 @@
 			)
 		)
 		(property "Value" "100 kOhms"
-			(at 130.81 80.0099 0)
+			(at 132.08 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4549,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 126.492 80.01 90)
+			(at 127.762 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4567,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/16W 0402"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4576,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4585,7 @@
 			)
 		)
 		(property "IPN" "IPN_R-0001"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4594,7 @@
 			)
 		)
 		(property "Part Number" "R0402_100K_0.063W_±1%"
-			(at 130.81 82.5499 0)
+			(at 132.08 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4604,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4613,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RP0402FRE07100KL"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4622,7 @@
 			)
 		)
 		(property "Suplier URL" "https://www.digikey.es/es/products/detail/yageo/RP0402FRE07100KL/16916566"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4631,7 @@
 			)
 		)
 		(property "Serie" "RT"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4640,7 @@
 			)
 		)
 		(property "Manufacturer Alternative" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4649,7 @@
 			)
 		)
 		(property "MPN Alternative" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4658,7 @@
 			)
 		)
 		(property "Manufacturer Alternative 2" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +4667,7 @@
 			)
 		)
 		(property "MPN Alternative 2" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4676,7 @@
 			)
 		)
 		(property "Resistance" "100K"
-			(at 132.588 81.2801 0)
+			(at 133.858 102.8701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4684,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4693,7 @@
 			)
 		)
 		(property "Power" "0.063W"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4702,7 @@
 			)
 		)
 		(property "Power_frac" "1/16W"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4711,7 @@
 			)
 		)
 		(property "TempCoeff" "±50ppm/°C"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4720,7 @@
 			)
 		)
 		(property "Package" "R0402"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4729,7 @@
 			)
 		)
 		(property "Dimensions" "0.039\" L x 0.020\" A (1.00mm x 0.50mm)"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4738,7 @@
 			)
 		)
 		(property "Height" "0.014\" (0.35mm)"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4747,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,7 +4756,7 @@
 			)
 		)
 		(property "Technology" "THIN FILM"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4715,7 +4765,7 @@
 			)
 		)
 		(property "Mounting" "SMD"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +4774,7 @@
 			)
 		)
 		(property "TempRange" "-55°C ~ 155°C"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +4783,7 @@
 			)
 		)
 		(property "Lifecycle" "Activo"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +4792,7 @@
 			)
 		)
 		(property "RoHS" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,7 +4801,7 @@
 			)
 		)
 		(property "Created By" "AMR"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,7 +4810,7 @@
 			)
 		)
 		(property "Created On" "22/08/2026"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4819,7 @@
 			)
 		)
 		(property "Approved By" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4828,7 @@
 			)
 		)
 		(property "Approved On" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +4837,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +4846,7 @@
 			)
 		)
 		(property "Cost_1" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +4855,7 @@
 			)
 		)
 		(property "Cost_10" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4864,7 @@
 			)
 		)
 		(property "Cost_100" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4873,7 @@
 			)
 		)
 		(property "Cost_500" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4882,7 @@
 			)
 		)
 		(property "Cost_1000" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4891,7 @@
 			)
 		)
 		(property "Cost_2500" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4900,7 @@
 			)
 		)
 		(property "Cost_5000" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +4909,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4918,7 @@
 			)
 		)
 		(property "Symbol Revision" "1"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +4927,7 @@
 			)
 		)
 		(property "Footprint Revision" "1"
-			(at 128.27 80.01 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

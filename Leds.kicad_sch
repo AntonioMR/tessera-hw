@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "User IO")
-		(date "2026-10-11")
+		(date "2026-10-26")
 	)
 	(lib_symbols
 		(symbol "catalog:LEDs/APHHS1005SURCK"

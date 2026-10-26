@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "NFC Interface")
-		(date "2026-10-11")
+		(date "2026-10-26")
 	)
 	(lib_symbols
 		(symbol "catalog:Antennas/NFC_40x30_N9_ST_ST25DV"
@@ -7298,7 +7298,7 @@
 		(at 223.52 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "62b50aa7-b5f0-4039-98d5-e0fdb8296292")

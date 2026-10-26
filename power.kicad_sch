@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply")
-		(date "2026-10-11")
+		(date "2026-10-26")
 	)
 	(lib_symbols
 		(symbol "Capacitors/C0402_1uF_6.3V_±10%_X5R_1"
@@ -15198,7 +15198,8 @@
 	)
 	(symbol
 		(lib_id "catalog:Transistors/NTK3139P")
-		(at 223.52 115.57 90)
+		(at 223.52 115.57 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15222,7 +15223,7 @@
 			)
 		)
 		(property "Footprint" "Packages_TO_SOT:SOT-723"
-			(at 220.98 110.49 0)
+			(at 226.06 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
